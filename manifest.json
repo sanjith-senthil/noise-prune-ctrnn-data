@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3739,
-      "sha256": "4c8e4246d30868af29a69088813ae881da17896da8d4fdf3c7ee3612068b1177"
+      "bytes": 4044,
+      "sha256": "a1e8b12997db8c16c8c4a16ad28d75d826fbaa252f66ac42e4af9734ce3c79d3"
     },
     {
       "path": "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed0/baseline_manifest.json",

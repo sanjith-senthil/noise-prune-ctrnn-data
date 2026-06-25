@@ -77,6 +77,11 @@ pruning seeds are averaged within each trained network first, then means,
 s.d., and s.e.m. are computed across the 24 trained networks. Raw run means are
 also included for auditability.
 
+Some released rescale configuration rows contain a matched-diagonal flag. This
+flag is nullified by the no-self-connection constraint and is inactive in all
+reported runs. Some legacy source labels use `V-NP` for linearized noise-prune;
+these labels are identical to `L-NP` as defined in the manuscript.
+
 ## Checksums
 
 `manifest.json` and `MANIFEST.sha256` contain SHA-256 checksums for every file
