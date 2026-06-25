@@ -1,0 +1,31 @@
+dataset,metric,unit,method,n,mean,sd,sem
+revised_task,post_acc_sequence,task_network_pruning_pct_cell,L-NP mask,96,0.24866042623710138,0.20779651545498395,0.021208143049711223
+revised_task,post_acc_sequence,task_network_pruning_pct_cell,L-NP rescale,96,0.43988971682476735,0.19790172790994165,0.020198260524769564
+revised_task,post_acc_sequence,task_network_pruning_pct_cell,Magnitude,96,0.23513077117462436,0.19215638542659952,0.019611878963031106
+revised_task,post_acc_sequence,task_network_pruning_pct_cell,OBS compensated,96,0.3617706367323055,0.23235460254713924,0.02371459231781999
+revised_task,post_acc_sequence,task_network_pruning_pct_cell,Random,96,0.043642981153317446,0.02752744647188406,0.0028095082407455416
+revised_task,post_acc_sequence,task_network_pruning_pct_cell,S-NP mask,96,0.31164230724147585,0.21676062698732232,0.02212303885186236
+revised_task,post_acc_sequence,task_network_pruning_pct_cell,S-NP rescale,96,0.44578442101161286,0.18948798617393858,0.019339536604737636
+revised_task,post_acc_sequence,task_mean,L-NP mask,8,0.24866042623710138,0.06432746134591573,0.02274319206710626
+revised_task,post_acc_sequence,task_mean,L-NP rescale,8,0.4398897168247674,0.09945135441503222,0.03516136355252798
+revised_task,post_acc_sequence,task_mean,Magnitude,8,0.2351307711746244,0.05694362774835854,0.020132612663113388
+revised_task,post_acc_sequence,task_mean,OBS compensated,8,0.36177063673230553,0.06213482275942714,0.021967977260507577
+revised_task,post_acc_sequence,task_mean,Random,8,0.04364298115331745,0.02330604006537424,0.008239929486415746
+revised_task,post_acc_sequence,task_mean,S-NP mask,8,0.31164230724147585,0.06085382547127753,0.021515076325941494
+revised_task,post_acc_sequence,task_mean,S-NP rescale,8,0.44578442101161286,0.09030265027188797,0.03192680818318461
+capped_rescale_probe,post_acc_sequence,task_network_pruning_pct_cell,S-NP capped q50,96,0.4909357460795665,0.18541734896200213,0.018924078934019727
+capped_rescale_probe,post_acc_sequence,task_network_pruning_pct_cell,S-NP capped q75,96,0.46629595800184176,0.1880807891104001,0.0191959151558538
+capped_rescale_probe,post_acc_sequence,task_network_pruning_pct_cell,S-NP capped q90,96,0.4528419652820004,0.18687877406976525,0.01907323500949104
+capped_rescale_probe,post_acc_sequence,task_network_pruning_pct_cell,S-NP rescale,96,0.44941487350425646,0.186336798428251,0.019017919852210727
+capped_rescale_probe,post_acc_sequence,task_mean,S-NP capped q50,8,0.4909357460795665,0.07872743494333069,0.027834351556925943
+capped_rescale_probe,post_acc_sequence,task_mean,S-NP capped q75,8,0.46629595800184176,0.08393936749480026,0.02967704798204146
+capped_rescale_probe,post_acc_sequence,task_mean,S-NP capped q90,8,0.4528419652820004,0.08833708577684578,0.03123187619153268
+capped_rescale_probe,post_acc_sequence,task_mean,S-NP rescale,8,0.44941487350425635,0.08848082263095647,0.03128269484365673
+matched_q50,post_acc_sequence,task_network_pruning_pct_cell,L-NP capped q50,96,0.4557857694530987,0.19422736599050439,0.019823247531730617
+matched_q50,post_acc_sequence,task_network_pruning_pct_cell,L-NP rescale,96,0.43988971682476735,0.19790172790994165,0.020198260524769564
+matched_q50,post_acc_sequence,task_network_pruning_pct_cell,S-NP capped q50,96,0.4841645720531633,0.18678269110779738,0.01906342858324952
+matched_q50,post_acc_sequence,task_network_pruning_pct_cell,S-NP rescale,96,0.44578442101161286,0.18948798617393858,0.019339536604737636
+matched_q50,post_acc_sequence,task_mean,L-NP capped q50,8,0.4557857694530987,0.09382578409271178,0.033172424091050694
+matched_q50,post_acc_sequence,task_mean,L-NP rescale,8,0.4398897168247674,0.09945135441503222,0.03516136355252798
+matched_q50,post_acc_sequence,task_mean,S-NP capped q50,8,0.4841645720531633,0.07922318116029371,0.02800962431280701
+matched_q50,post_acc_sequence,task_mean,S-NP rescale,8,0.44578442101161286,0.09030265027188797,0.03192680818318461

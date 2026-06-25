@@ -1,0 +1,98 @@
+{
+  "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_ctxdlydm1intseq_seed2.pt": {
+    "abs_path": "/Users/sanjithsenthil/Efficient RNN Project/checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_ctxdlydm1intseq_seed2.pt",
+    "ft_steps": 0,
+    "hash": "07b5919f4a6ba08a0e18674ce9451df2b67219d6f4c3bd9d139cb5d7cd4a86bd",
+    "path": "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_ctxdlydm1intseq_seed2.pt",
+    "run_id": "taskpres_rescale_completion_ctxdlydm1intseq_netseed2_snp_rescale_p80_pruneseed2",
+    "seed": 2,
+    "status": "reused",
+    "task": "modcog:ctxdlydm1intseq",
+    "train_steps": 0,
+    "updated": "2026-05-17T05:11:23Z"
+  },
+  "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_ctxdlydm2intseq_seed2.pt": {
+    "abs_path": "/Users/sanjithsenthil/Efficient RNN Project/checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_ctxdlydm2intseq_seed2.pt",
+    "ft_steps": 0,
+    "hash": "fa7be4de5b6acf59c9197e500740823668023f23a2712475b6c88b71e24a4cce",
+    "path": "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_ctxdlydm2intseq_seed2.pt",
+    "run_id": "taskpres_rescale_completion_ctxdlydm2intseq_netseed2_snp_rescale_p80_pruneseed2",
+    "seed": 2,
+    "status": "reused",
+    "task": "modcog:ctxdlydm2intseq",
+    "train_steps": 0,
+    "updated": "2026-05-17T05:11:23Z"
+  },
+  "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dlydm1intseq_seed2.pt": {
+    "abs_path": "/Users/sanjithsenthil/Efficient RNN Project/checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dlydm1intseq_seed2.pt",
+    "ft_steps": 0,
+    "hash": "46e25c2a05a027616575c29dce2c34ff4b76734777803f0d1497ede797009208",
+    "path": "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dlydm1intseq_seed2.pt",
+    "run_id": "taskpres_rescale_completion_dlydm1intseq_netseed2_snp_rescale_p80_pruneseed2",
+    "seed": 2,
+    "status": "reused",
+    "task": "modcog:dlydm1intseq",
+    "train_steps": 0,
+    "updated": "2026-05-17T05:11:23Z"
+  },
+  "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dlydm2intseq_seed2.pt": {
+    "abs_path": "/Users/sanjithsenthil/Efficient RNN Project/checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dlydm2intseq_seed2.pt",
+    "ft_steps": 0,
+    "hash": "e0e238ee42067a50d8310250622ee8ff6f713ab954a50dc2b9c47f69feb8c6b7",
+    "path": "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dlydm2intseq_seed2.pt",
+    "run_id": "taskpres_rescale_completion_dlydm2intseq_netseed2_snp_rescale_p80_pruneseed2",
+    "seed": 2,
+    "status": "reused",
+    "task": "modcog:dlydm2intseq",
+    "train_steps": 0,
+    "updated": "2026-05-17T05:11:23Z"
+  },
+  "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dm1seqr_seed2.pt": {
+    "abs_path": "/Users/sanjithsenthil/Efficient RNN Project/checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dm1seqr_seed2.pt",
+    "ft_steps": 0,
+    "hash": "db1a3e2d5009b93341d3754f2127c686c41a6264860ab5a438b8d33db70520ea",
+    "path": "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dm1seqr_seed2.pt",
+    "run_id": "taskpres_rescale_completion_dm1seqr_netseed2_snp_rescale_p80_pruneseed2",
+    "seed": 2,
+    "status": "reused",
+    "task": "modcog:dm1seqr",
+    "train_steps": 0,
+    "updated": "2026-05-17T05:11:23Z"
+  },
+  "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dm2seql_seed2.pt": {
+    "abs_path": "/Users/sanjithsenthil/Efficient RNN Project/checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dm2seql_seed2.pt",
+    "ft_steps": 0,
+    "hash": "8127ef9d550b5b447af42a84496866087dafe4d2b4b67dd02eb7bd369fe68431",
+    "path": "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dm2seql_seed2.pt",
+    "run_id": "taskpres_rescale_completion_dm2seql_netseed2_snp_rescale_p80_pruneseed2",
+    "seed": 2,
+    "status": "reused",
+    "task": "modcog:dm2seql",
+    "train_steps": 0,
+    "updated": "2026-05-17T05:11:23Z"
+  },
+  "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dmsintseq_seed2.pt": {
+    "abs_path": "/Users/sanjithsenthil/Efficient RNN Project/checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dmsintseq_seed2.pt",
+    "ft_steps": 0,
+    "hash": "c36c1b38669f61c59afdf8982cce329e2d06475a96fd80ab82b64013f5decac0",
+    "path": "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dmsintseq_seed2.pt",
+    "run_id": "taskpres_rescale_completion_dmsintseq_netseed2_snp_rescale_p80_pruneseed2",
+    "seed": 2,
+    "status": "reused",
+    "task": "modcog:dmsintseq",
+    "train_steps": 0,
+    "updated": "2026-05-17T05:11:23Z"
+  },
+  "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_multidlydmintseq_seed2.pt": {
+    "abs_path": "/Users/sanjithsenthil/Efficient RNN Project/checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_multidlydmintseq_seed2.pt",
+    "ft_steps": 0,
+    "hash": "4dc84bb8496c5c6d1da162fd3aebdc8ea6bc343986a6770c6057c352dacc41c9",
+    "path": "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_multidlydmintseq_seed2.pt",
+    "run_id": "taskpres_rescale_completion_multidlydmintseq_netseed2_snp_rescale_p80_pruneseed2",
+    "seed": 2,
+    "status": "reused",
+    "task": "modcog:multidlydmintseq",
+    "train_steps": 0,
+    "updated": "2026-05-17T05:11:23Z"
+  }
+}
