@@ -2,8 +2,38 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 4044,
-      "sha256": "a1e8b12997db8c16c8c4a16ad28d75d826fbaa252f66ac42e4af9734ce3c79d3"
+      "bytes": 6472,
+      "sha256": "46d553b2d139498c4e9383cf3803216decd6978c5b54b11cae1bd156e1093158"
+    },
+    {
+      "path": "checkpoints/tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed0/modcog_anti_seed0.pt",
+      "bytes": 1158611,
+      "sha256": "320b839c039ec22d30be2573a5151434cc469d184348b364f95a2465749d46a7"
+    },
+    {
+      "path": "checkpoints/tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed0/modcog_dm1_seed0.pt",
+      "bytes": 1158598,
+      "sha256": "8dc7d4bff30a6258e801ed3496a9cb6afabd93bd5af1736c87e93ff3399578d5"
+    },
+    {
+      "path": "checkpoints/tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed1/modcog_anti_seed1.pt",
+      "bytes": 1158611,
+      "sha256": "d1f0b4b20aa75a8224ad863e2b8a704e84208986b473c05860d06f9b9bb7a01b"
+    },
+    {
+      "path": "checkpoints/tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed1/modcog_dm1_seed1.pt",
+      "bytes": 1158598,
+      "sha256": "de9ef261e4e1f1cfe7a02ce96ccff45365777e66640f7d88364ebcaff6b00e32"
+    },
+    {
+      "path": "checkpoints/tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed2/modcog_anti_seed2.pt",
+      "bytes": 1158611,
+      "sha256": "72754586fd238eee240cb2dc27624e110071faf0a1195cc074dae9b369f3f351"
+    },
+    {
+      "path": "checkpoints/tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed2/modcog_dm1_seed2.pt",
+      "bytes": 1158598,
+      "sha256": "94043e2892b25174c4eb178abf525df8d1fb77710a673e9722c8ac53296c3d7d"
     },
     {
       "path": "checkpoints/tanh_h512_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed0/baseline_manifest.json",
@@ -256,6 +286,256 @@
       "sha256": "d4547376aa238b428833da89ae8fc0260b16ac785a61b88f87b7650e005b6dc2"
     },
     {
+      "path": "results/revision_2026/configs/dm1anti/continue_tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed0.json",
+      "bytes": 1923,
+      "sha256": "c262440b25290ea76e3b13c38501207228bd404d9b7e159809fcbbb067219648"
+    },
+    {
+      "path": "results/revision_2026/configs/dm1anti/continue_tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed1.json",
+      "bytes": 1923,
+      "sha256": "edee27387a33ba0aebcb73d4c182c4f70223cd49ccf252e281406879eae7d6b9"
+    },
+    {
+      "path": "results/revision_2026/configs/dm1anti/continue_tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed2.json",
+      "bytes": 1923,
+      "sha256": "f9f4f6ca5568636601a2050b351bad53966a08c10fd20abece3b6e0ce0f42e2d"
+    },
+    {
+      "path": "results/revision_2026/configs/dm1anti/train_tanh_h512_modcog_dm1anti_6k_seqbest_no_l2_seed0.json",
+      "bytes": 1634,
+      "sha256": "83f83c9399f37bb34c2d709391c51065fee1de3d6079cdfbf58d51f45886a4d9"
+    },
+    {
+      "path": "results/revision_2026/configs/dm1anti/train_tanh_h512_modcog_dm1anti_6k_seqbest_no_l2_seed1.json",
+      "bytes": 1634,
+      "sha256": "6a3ef6f652a0826fe5917ba7fd9715b0edad8b66a5acd9f66b9f481cc6455817"
+    },
+    {
+      "path": "results/revision_2026/configs/dm1anti/train_tanh_h512_modcog_dm1anti_6k_seqbest_no_l2_seed2.json",
+      "bytes": 1634,
+      "sha256": "955ea7630eda9595d804ef92a597de9c5643ffc5ca211f6c5b9290fc075e56dd"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40_ctxdlydm1intseq.json",
+      "bytes": 199751,
+      "sha256": "b6bad597842cb9d344ee346e11f2a39ad1b167b584d9401adc3470091792e1b4"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40_ctxdlydm2intseq.json",
+      "bytes": 199751,
+      "sha256": "7899fb7757a48df39bd9baf08642c1de9f7d2addce053b1cd8368a4fda683b10"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40_dlydm1intseq.json",
+      "bytes": 195479,
+      "sha256": "73815d76ff943f21c433df77ed3ed12125f5dcdf8e3545665de2335ba2406e37"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40_dlydm2intseq.json",
+      "bytes": 195479,
+      "sha256": "12f125a9f96a77a027d8ed4fb65a90604b1cdbeaceb1e9c0b099fd4639665aa8"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40_dm1seqr.json",
+      "bytes": 188359,
+      "sha256": "b18a3258014e405573aec19f1bf7dd8dcf1d40c501c11717b8c3f57d41c7f921"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40_dm2seql.json",
+      "bytes": 188359,
+      "sha256": "eaaccc63e93939f66f7591c082c1e61a546e957835eef9a31d1ed9715f6d2660"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40_dmsintseq.json",
+      "bytes": 191207,
+      "sha256": "237de4d647e816a399523d4be189ce474a46845d6c7bf718268d1675e02c41ed"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40_multidlydmintseq.json",
+      "bytes": 201175,
+      "sha256": "eca2cf667d7db5d4efc893187e6dd05e6801b143b9504973f68c9762ed5c5091"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80_ctxdlydm1intseq.json",
+      "bytes": 127370,
+      "sha256": "ecc7252f0398cd8584fada413e42f7446a3283c1403d9e416acb2e7a927f83e4"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80_ctxdlydm2intseq.json",
+      "bytes": 127370,
+      "sha256": "b4c1b7bd47da7af4d7003ee8dbbe35a2c5ec27e8751bf3975cb815abf733a3fa"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80_dlydm1intseq.json",
+      "bytes": 124790,
+      "sha256": "c28acbce499258aae75006a5164b3608481fc4b1296d450b0d07e45df6fa1455"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80_dlydm2intseq.json",
+      "bytes": 124790,
+      "sha256": "04c0328ce2276187c2236d482393eab10cb5ea144a51361f0c2b93499e3170d6"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80_dm1seqr.json",
+      "bytes": 120490,
+      "sha256": "9d9cd13bd115abeed2dc1e9f305315a39434191c732051076591be40f5088bf9"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80_dm2seql.json",
+      "bytes": 120490,
+      "sha256": "bfbe29a9c005b2d293541a0979d7dd1bbd16ae82f4742de95dd55fa1e67fef83"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80_dmsintseq.json",
+      "bytes": 122210,
+      "sha256": "5c9021aac6ee513da2502f36c79050c706ee706fd8c8fef33b0441d0c6535986"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80_multidlydmintseq.json",
+      "bytes": 128230,
+      "sha256": "7e93bb3fa492761cb5152fbb48d1cd7cb9fad9843ec97c32e68567c7a1691842"
+    },
+    {
+      "path": "results/revision_2026/dm1anti_baselines/continue_tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed0.csv",
+      "bytes": 8569,
+      "sha256": "c23f31e1e5494261cb37b4dfe7972939dc9ee01448cc44da59045c4a30c23fd2"
+    },
+    {
+      "path": "results/revision_2026/dm1anti_baselines/continue_tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed1.csv",
+      "bytes": 8546,
+      "sha256": "2bd420d3f002d95eec6f4df93b054b37fb313d65f6faf124aa197cc790796ae0"
+    },
+    {
+      "path": "results/revision_2026/dm1anti_baselines/continue_tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed2.csv",
+      "bytes": 8564,
+      "sha256": "154f1609c225b45ed6dae4fa66242eabaf928977d973482d488c3af3ca98e66f"
+    },
+    {
+      "path": "results/revision_2026/dm1anti_baselines/dm1anti_baseline_summary.csv",
+      "bytes": 359,
+      "sha256": "a7d5f80ccc9ca2ec5dd820a2ce27ce916c6d7d980c2cc21ba7a7d4a03fa1097b"
+    },
+    {
+      "path": "results/revision_2026/dm1anti_baselines/train_tanh_h512_modcog_dm1anti_6k_seqbest_no_l2_seed0.csv",
+      "bytes": 8304,
+      "sha256": "24c47d17b4428e83c44cbaac11ddd3eb5a1802af7b799e0a80dd262f5703e1f4"
+    },
+    {
+      "path": "results/revision_2026/dm1anti_baselines/train_tanh_h512_modcog_dm1anti_6k_seqbest_no_l2_seed1.csv",
+      "bytes": 8295,
+      "sha256": "8d6185e385e6c587a263e7380a42ba2b42fcbc527f46172a399aef0f0edb4268"
+    },
+    {
+      "path": "results/revision_2026/dm1anti_baselines/train_tanh_h512_modcog_dm1anti_6k_seqbest_no_l2_seed2.csv",
+      "bytes": 8266,
+      "sha256": "964e35e230914fe2dda5e6dfb742a7a583293d8294363e0c73b8274759ef97e9"
+    },
+    {
+      "path": "results/revision_2026/low_sparsity/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40_raw.csv",
+      "bytes": 397465,
+      "sha256": "8eaf71205e0c3c39532d9cd7e31b72585b234df97ee4d1345289ce2757be433e"
+    },
+    {
+      "path": "results/revision_2026/low_sparsity/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40_summary.csv",
+      "bytes": 6343,
+      "sha256": "887e7f03ded7bbc582d9c82566c805b5e224d31f7226a8242c7918ae5a18a176"
+    },
+    {
+      "path": "results/revision_2026/noise_necessity/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80_raw.csv",
+      "bytes": 246346,
+      "sha256": "046257065b0423897be74d2da6787aeeed888a31914707c7740c274c59fe35c5"
+    },
+    {
+      "path": "results/revision_2026/noise_necessity/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80_summary.csv",
+      "bytes": 8419,
+      "sha256": "e464310f95f60842ff39b2936376f3068740539eeb9e8c617743b269557f381d"
+    },
+    {
+      "path": "results/revision_2026/reference_tables/cap_value_anchor.csv",
+      "bytes": 3525,
+      "sha256": "57abd9341eab1035362e30ea59f96023171522f8ce54ac769f220fa5b6467699"
+    },
+    {
+      "path": "results/revision_2026/reference_tables/chance_level_by_task.csv",
+      "bytes": 688,
+      "sha256": "f7b09295debe2ef0d09284536a03c550353d478fae6f96bf0d69dbde7f38f9c6"
+    },
+    {
+      "path": "results/revision_2026/reference_tables/floor_corrected_retention_summary.csv",
+      "bytes": 5175,
+      "sha256": "1637808e2740f1017c113ccb1e06ab677d83d676d56d4bc24f3eaf2df6027d63"
+    },
+    {
+      "path": "results/revision_2026/reference_tables/recurrent_weight_retention.csv",
+      "bytes": 1905,
+      "sha256": "e6b64f049e72504d99232d97264f95e566bf02b1a8abcd4e68cd049ec0c647c4"
+    },
+    {
+      "path": "results/revision_2026/reference_tables/retention_above_one_counts.csv",
+      "bytes": 1126,
+      "sha256": "ed90f372777124113e0b7c0b367d4aec87fa35c12e7cc4e0f1bbef1968847e2a"
+    },
+    {
+      "path": "results/revision_2026/reference_tables/theory_gap_by_sparsity.csv",
+      "bytes": 568,
+      "sha256": "8d38a0b701730e1af0a2aeb72796fcf0690af4fe4ec5de2e0f18332f63a4fe5e"
+    },
+    {
+      "path": "results/revision_2026/reference_tables/topk_binding_summary.csv",
+      "bytes": 480,
+      "sha256": "fe23de1d9eb5a3256a1172f17be542d20dc31456fb7afb00c6ef29252b53a196"
+    },
+    {
+      "path": "results/revision_2026/score_controls/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_full_p50_80_holm_tests.csv",
+      "bytes": 28382,
+      "sha256": "9b21b0584b029fac36038aee0e4b03fca70fc68be3bdc746f7487ac39c5a2aa4"
+    },
+    {
+      "path": "results/revision_2026/score_controls/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_full_p50_80_plot_points.csv",
+      "bytes": 873,
+      "sha256": "cc215fc3d95b7c0528a2f3111fe0bba433c19e130f45df4bb3aa1bd08d21e1fb"
+    },
+    {
+      "path": "results/revision_2026/score_controls/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_full_p50_80_raw.csv",
+      "bytes": 653568,
+      "sha256": "f591faf8a3e823b34e3d804aadf79795f039d8e49236d3a835c615f7e39cc512"
+    },
+    {
+      "path": "results/revision_2026/score_controls/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_full_p50_80_summary_by_sparsity.csv",
+      "bytes": 6149,
+      "sha256": "25670f152e4dfe553757b35b0f12952ad5c4c89a2b672c97bf5ab0450bd9aad1"
+    },
+    {
+      "path": "results/revision_2026/statistics/paper_relevant_amplification_descriptive_statistics.csv",
+      "bytes": 4553,
+      "sha256": "832cfc6e76e9b9780e519d83330c0f8ca214c2a22216173573edc12e07ad1c39"
+    },
+    {
+      "path": "results/revision_2026/statistics/paper_relevant_h512_comparison_tests.csv",
+      "bytes": 552274,
+      "sha256": "c3f1350583fafd120052548896189ffe64e1b7476fbf1733aebe2025eb085f57"
+    },
+    {
+      "path": "results/revision_2026/statistics/paper_relevant_h512_descriptive_statistics.csv",
+      "bytes": 114944,
+      "sha256": "da0da8d24c1a069928b1a8f229bf56ebde187f05232b65243ff41236955270cc"
+    },
+    {
+      "path": "results/revision_2026/statistics/per_task_retention_curves.csv",
+      "bytes": 20022,
+      "sha256": "e7045eb377901ed6002f54ac35a92e17fcff8a0aa3171a281ae88f9c45a8d534"
+    },
+    {
+      "path": "results/revision_2026/statistics/task_clustered_h512_comparison_tests.csv",
+      "bytes": 64187,
+      "sha256": "e3326d68ffb574a0c8e409679d0748eaf2702f82d44c63f48cdaa1d1cc9250af"
+    },
+    {
+      "path": "results/revision_2026/statistics/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_lnp_snp_capped_rescale_q10_to_q90_3seed_vs_q100_plot_level_holm_tests.csv",
+      "bytes": 16373,
+      "sha256": "0b42eec444305f86b8df3effcdbd27cf4d09338da12f5c5c0324df1d8fa3f11d"
+    },
+    {
       "path": "results/statistics/STATISTICAL_REPORTING.md",
       "bytes": 5396,
       "sha256": "107d4c6f6d254f420c9c460beed9e90c11b83bc58ceaae31369ad9d5ced29ec8"
@@ -349,6 +629,41 @@
       "path": "results/training_outcomes/training_outcome_summary_by_task.csv",
       "bytes": 1723,
       "sha256": "3e66460001992aa96f6177dbb967f02b8f609ef45ac93ef9dd69b5a7520ced26"
+    },
+    {
+      "path": "results/weight_distributions/recurrent_weight_distribution_summary_p80_by_method.csv",
+      "bytes": 5155,
+      "sha256": "2a409bb932f4f5181624fe644053b5d7497fff331526acee279db9a06158d781"
+    },
+    {
+      "path": "results/weight_distributions/recurrent_weight_distribution_summary_p80_by_run.csv",
+      "bytes": 93656,
+      "sha256": "2ee3df34a2609e16c6fa755a56267e0dd1261d9414e139649cfc3595e81467f3"
+    },
+    {
+      "path": "results/weight_distributions/recurrent_weight_existing_metric_summary_p80_all_methods.csv",
+      "bytes": 128267,
+      "sha256": "f717bac0bb2a8c4c4ab18d150475e513be941e04b8eef6ea42dd43eff17cbb11"
+    },
+    {
+      "path": "results/weight_distributions/recurrent_weight_log10_abs_histogram_p80_by_run.csv",
+      "bytes": 3207160,
+      "sha256": "2bcfbd138d971f509fffcd196ad909170a1570cd07e2ce84a35a1769bd9b338b"
+    },
+    {
+      "path": "results/weight_distributions/recurrent_weight_log10_abs_histogram_p80_overall.csv",
+      "bytes": 20222,
+      "sha256": "bf954f5f72c715413c76477cb7567ae27197426cdf177ae1f15e97b6bb1d471e"
+    },
+    {
+      "path": "results/weight_distributions/recurrent_weight_signed_histogram_p80_by_run.csv",
+      "bytes": 8349728,
+      "sha256": "b18614103b1a3db034b5361f97b26d404dfbef71a8593ba08721541f551fedad"
+    },
+    {
+      "path": "results/weight_distributions/recurrent_weight_signed_histogram_p80_overall.csv",
+      "bytes": 56465,
+      "sha256": "5d87b45625fea2de2aab3d4e1e306640284c54c0214271545a4ec6f450c13279"
     }
   ]
 }
