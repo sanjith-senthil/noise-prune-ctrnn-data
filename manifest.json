@@ -802,43 +802,43 @@
     },
     {
       "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_ctxdlydm1intseq.json",
-      "bytes": 30605,
-      "sha256": "aa4af2c320650190f8461eb8864a0f3bf8d92f753891701293a32ec77cf20737"
+      "bytes": 23653,
+      "sha256": "10158737090c9a57f34f6cb0f8ff0601b85cbc46b973506621b1dd3bfa69b451"
     },
     {
       "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_ctxdlydm2intseq.json",
-      "bytes": 30605,
-      "sha256": "9ce020ac3a3deef0ecd39e657a2172c38405d43aafc2d8ba4f539901007ac8bf"
+      "bytes": 23653,
+      "sha256": "22539171221b5f0883f1e8666cb1f7fb6543869a5ab30524c55588d8d46e06d2"
     },
     {
       "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_dlydm1intseq.json",
-      "bytes": 29981,
-      "sha256": "92f0a2cf191dd6eb650a2d94b65b77ac2190c42c915eb8630a22c816d2b177a3"
+      "bytes": 23173,
+      "sha256": "5ff39f6ad9df1a3e7c4bc17d3f16a1ae551082a91f57c3cf477da31ebe74f560"
     },
     {
       "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_dlydm2intseq.json",
-      "bytes": 29981,
-      "sha256": "130ed54d55a83e8e0121b8fea3fffd0d91e589c9a1037394ad553b0221f50f35"
+      "bytes": 23173,
+      "sha256": "23e4eb8cff5ea495d6aa3ab02788993773f513b82b925cc7906e1ef6b7a0de44"
     },
     {
       "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_dm1seqr.json",
-      "bytes": 28941,
-      "sha256": "cdfb872bb34b4450ef4aec8de61771947925d787cc83e55d3967e3cb73faa3d2"
+      "bytes": 22373,
+      "sha256": "d4ce40779e5eaaa7bbc3eb74492e16e01ca0975c7727e63016551276eb20ddc9"
     },
     {
       "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_dm2seql.json",
-      "bytes": 28941,
-      "sha256": "351831fabcb8e1bc15174f5214e77cdcc8f5d8fd060aa577e8e1cc4202dc6740"
+      "bytes": 22373,
+      "sha256": "5e653b30c3f9a1d973550c2f6db78c6814d28ef16156ec49004d1e6270163279"
     },
     {
       "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_dmsintseq.json",
-      "bytes": 29357,
-      "sha256": "6ea410c88178d7f4721a54f07cbf1709a99a469732dc91cef1b63fb396138aa6"
+      "bytes": 22693,
+      "sha256": "9f7e827f9bced387a365173ba82ca18e7f32a5b5d7a1be33814ac746d699baa4"
     },
     {
       "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_multidlydmintseq.json",
-      "bytes": 30813,
-      "sha256": "be8c52ccec639adaf47e36ff248acc543fe21045e8c3ff2bc76b6c626c25e62d"
+      "bytes": 23813,
+      "sha256": "8b333a96c87e8386d926871a92799a7058a86543d6ffa9e8c75bda02eec0208a"
     },
     {
       "path": "results/revision_2026/covariance_ablation/reviewer1_controls_combined.csv",
@@ -992,13 +992,13 @@
     },
     {
       "path": "results/revision_2026/score_controls_round2/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_gain_audit.csv",
-      "bytes": 25463,
-      "sha256": "3212d88f9fcaae7972baa8a17d42730ad2d1eba2968a65af939f1a07970b667e"
+      "bytes": 18002,
+      "sha256": "f836efb6bb44934bf03f3c316e45faecfee305a3315b41aaba2f43ab8de42d92"
     },
     {
       "path": "results/revision_2026/score_controls_round2/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_raw.csv",
-      "bytes": 1467007,
-      "sha256": "8148fd56d7bf6ec2b0eef604f35163760d607cdf6652df7b865ac481fb989928"
+      "bytes": 1280478,
+      "sha256": "f0214b31a9f2ff8454c3d60953936bd7f830da23b7ea6436482910999fc42d03"
     },
     {
       "path": "results/revision_2026/score_controls_round2/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_regression_check.csv",
@@ -1007,8 +1007,8 @@
     },
     {
       "path": "results/revision_2026/score_controls_round2/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_summary_by_sparsity.csv",
-      "bytes": 5068,
-      "sha256": "3c0e5198cc55f279fe9a3ef03e1cee722fdc74e5c3da620d7a075855e036cccd"
+      "bytes": 3814,
+      "sha256": "f56d0a47d608dc25a55b86329faede5d630d41ec25a5217b9efaa9a25e6e36fc"
     },
     {
       "path": "results/revision_2026/statistics/paper_relevant_amplification_descriptive_statistics.csv",
