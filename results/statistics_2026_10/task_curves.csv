@@ -1,0 +1,513 @@
+task,method,sparsity,retention
+ctxdlydm1intseq,noise-prune + capped rescale,10,1.000116341541392
+ctxdlydm1intseq,noise-prune + capped rescale,20,1.0004157085632888
+ctxdlydm1intseq,noise-prune + capped rescale,30,1.0021368871447418
+ctxdlydm1intseq,noise-prune + capped rescale,40,0.9952118842321876
+ctxdlydm1intseq,noise-prune + capped rescale,50,0.9529845070006182
+ctxdlydm1intseq,noise-prune + capped rescale,60,0.8375337417899139
+ctxdlydm1intseq,noise-prune + capped rescale,70,0.5902814072918771
+ctxdlydm1intseq,noise-prune + capped rescale,80,0.29441224336692723
+ctxdlydm1intseq,noise-prune + rescale,10,0.9992903754886672
+ctxdlydm1intseq,noise-prune + rescale,20,0.9970212843457618
+ctxdlydm1intseq,noise-prune + rescale,30,0.9942413421712185
+ctxdlydm1intseq,noise-prune + rescale,40,0.9787158889468529
+ctxdlydm1intseq,noise-prune + rescale,50,0.9172520943315611
+ctxdlydm1intseq,noise-prune + rescale,60,0.7625578308600071
+ctxdlydm1intseq,noise-prune + rescale,70,0.48941785399885146
+ctxdlydm1intseq,noise-prune + rescale,80,0.2189511091610102
+ctxdlydm1intseq,noise-prune score only,10,1.0051642952648117
+ctxdlydm1intseq,noise-prune score only,20,1.0063677898830257
+ctxdlydm1intseq,noise-prune score only,30,0.9873629742243976
+ctxdlydm1intseq,noise-prune score only,40,0.954724733925254
+ctxdlydm1intseq,noise-prune score only,50,0.8573973755077571
+ctxdlydm1intseq,noise-prune score only,60,0.5474379652934065
+ctxdlydm1intseq,noise-prune score only,70,0.24943177953218668
+ctxdlydm1intseq,noise-prune score only,80,0.11979892802985655
+ctxdlydm1intseq,magnitude + capped rescale,10,0.9991657263793821
+ctxdlydm1intseq,magnitude + capped rescale,20,1.0012278946672974
+ctxdlydm1intseq,magnitude + capped rescale,30,0.9932875735827641
+ctxdlydm1intseq,magnitude + capped rescale,40,0.9707845185629327
+ctxdlydm1intseq,magnitude + capped rescale,50,0.894075666839481
+ctxdlydm1intseq,magnitude + capped rescale,60,0.7437597512265711
+ctxdlydm1intseq,magnitude + capped rescale,70,0.4895623342674371
+ctxdlydm1intseq,magnitude + capped rescale,80,0.21088682173960138
+ctxdlydm1intseq,magnitude + rescale,10,0.99891907244217
+ctxdlydm1intseq,magnitude + rescale,20,1.0004354611644248
+ctxdlydm1intseq,magnitude + rescale,30,0.9921065707825822
+ctxdlydm1intseq,magnitude + rescale,40,0.9678340929260726
+ctxdlydm1intseq,magnitude + rescale,50,0.8905519045744521
+ctxdlydm1intseq,magnitude + rescale,60,0.7331670970632481
+ctxdlydm1intseq,magnitude + rescale,70,0.4663790757439165
+ctxdlydm1intseq,magnitude + rescale,80,0.20228415636630448
+ctxdlydm1intseq,magnitude,10,0.9996798118201723
+ctxdlydm1intseq,magnitude,20,0.9953939034938161
+ctxdlydm1intseq,magnitude,30,0.9748701646992308
+ctxdlydm1intseq,magnitude,40,0.8931594781286806
+ctxdlydm1intseq,magnitude,50,0.6523825263220945
+ctxdlydm1intseq,magnitude,60,0.31483111161260385
+ctxdlydm1intseq,magnitude,70,0.12769902320763304
+ctxdlydm1intseq,magnitude,80,0.06034069519121057
+ctxdlydm1intseq,OBS,10,0.9999454438269858
+ctxdlydm1intseq,OBS,20,1.0000752349409612
+ctxdlydm1intseq,OBS,30,0.997370388420539
+ctxdlydm1intseq,OBS,40,0.9837987926842787
+ctxdlydm1intseq,OBS,50,0.8961943531781742
+ctxdlydm1intseq,OBS,60,0.6136939704272438
+ctxdlydm1intseq,OBS,70,0.2503044232413023
+ctxdlydm1intseq,OBS,80,0.09138379913672469
+ctxdlydm1intseq,random,10,0.32327823384721666
+ctxdlydm1intseq,random,20,0.1049397634118829
+ctxdlydm1intseq,random,30,0.056747176695929324
+ctxdlydm1intseq,random,40,0.05060502633008692
+ctxdlydm1intseq,random,50,0.08253494067088434
+ctxdlydm1intseq,random,60,0.10542756150692849
+ctxdlydm1intseq,random,70,0.10550007544767225
+ctxdlydm1intseq,random,80,0.07051947387890357
+ctxdlydm2intseq,noise-prune + capped rescale,10,0.9992754241873926
+ctxdlydm2intseq,noise-prune + capped rescale,20,0.995363654669637
+ctxdlydm2intseq,noise-prune + capped rescale,30,0.9854336049043478
+ctxdlydm2intseq,noise-prune + capped rescale,40,0.963290719518525
+ctxdlydm2intseq,noise-prune + capped rescale,50,0.9185706271095394
+ctxdlydm2intseq,noise-prune + capped rescale,60,0.785111150542838
+ctxdlydm2intseq,noise-prune + capped rescale,70,0.5013199604673607
+ctxdlydm2intseq,noise-prune + capped rescale,80,0.25373754181999875
+ctxdlydm2intseq,noise-prune + rescale,10,0.9993107459527821
+ctxdlydm2intseq,noise-prune + rescale,20,0.9956980844375728
+ctxdlydm2intseq,noise-prune + rescale,30,0.9851387378001593
+ctxdlydm2intseq,noise-prune + rescale,40,0.9580134874666059
+ctxdlydm2intseq,noise-prune + rescale,50,0.8950524260735762
+ctxdlydm2intseq,noise-prune + rescale,60,0.7281253641548503
+ctxdlydm2intseq,noise-prune + rescale,70,0.4226441092631898
+ctxdlydm2intseq,noise-prune + rescale,80,0.19150376134633365
+ctxdlydm2intseq,noise-prune score only,10,0.9977799174211434
+ctxdlydm2intseq,noise-prune score only,20,0.981779997162214
+ctxdlydm2intseq,noise-prune score only,30,0.9473283119494593
+ctxdlydm2intseq,noise-prune score only,40,0.8960873948928348
+ctxdlydm2intseq,noise-prune score only,50,0.7309088928827593
+ctxdlydm2intseq,noise-prune score only,60,0.42087418806991833
+ctxdlydm2intseq,noise-prune score only,70,0.2075280406780259
+ctxdlydm2intseq,noise-prune score only,80,0.11549490258191057
+ctxdlydm2intseq,magnitude + capped rescale,10,0.998914569214752
+ctxdlydm2intseq,magnitude + capped rescale,20,0.9959134474361306
+ctxdlydm2intseq,magnitude + capped rescale,30,0.9833944586417211
+ctxdlydm2intseq,magnitude + capped rescale,40,0.9636677253601809
+ctxdlydm2intseq,magnitude + capped rescale,50,0.9013136702631144
+ctxdlydm2intseq,magnitude + capped rescale,60,0.7372897999441369
+ctxdlydm2intseq,magnitude + capped rescale,70,0.4377076339314126
+ctxdlydm2intseq,magnitude + capped rescale,80,0.2056143678872361
+ctxdlydm2intseq,magnitude + rescale,10,0.9989198390909076
+ctxdlydm2intseq,magnitude + rescale,20,0.9958451540180889
+ctxdlydm2intseq,magnitude + rescale,30,0.9828833261987593
+ctxdlydm2intseq,magnitude + rescale,40,0.9621053396123713
+ctxdlydm2intseq,magnitude + rescale,50,0.8951416790595331
+ctxdlydm2intseq,magnitude + rescale,60,0.7178336915292901
+ctxdlydm2intseq,magnitude + rescale,70,0.4207607026143325
+ctxdlydm2intseq,magnitude + rescale,80,0.20077112041017045
+ctxdlydm2intseq,magnitude,10,0.9991131234853531
+ctxdlydm2intseq,magnitude,20,0.9951888650432267
+ctxdlydm2intseq,magnitude,30,0.9811231917048636
+ctxdlydm2intseq,magnitude,40,0.8836550167070496
+ctxdlydm2intseq,magnitude,50,0.6421211010208548
+ctxdlydm2intseq,magnitude,60,0.3173847950035645
+ctxdlydm2intseq,magnitude,70,0.1272203170510696
+ctxdlydm2intseq,magnitude,80,0.06404761353285804
+ctxdlydm2intseq,OBS,10,0.9998407140321798
+ctxdlydm2intseq,OBS,20,0.9994070572668253
+ctxdlydm2intseq,OBS,30,0.9971570165361708
+ctxdlydm2intseq,OBS,40,0.9797146487463156
+ctxdlydm2intseq,OBS,50,0.8886084723820283
+ctxdlydm2intseq,OBS,60,0.593897474618562
+ctxdlydm2intseq,OBS,70,0.23827874684389685
+ctxdlydm2intseq,OBS,80,0.09324186911537517
+ctxdlydm2intseq,random,10,0.30754121916822585
+ctxdlydm2intseq,random,20,0.10109886841968957
+ctxdlydm2intseq,random,30,0.057668158345721976
+ctxdlydm2intseq,random,40,0.05130238737195312
+ctxdlydm2intseq,random,50,0.07955152715639947
+ctxdlydm2intseq,random,60,0.1004751549982514
+ctxdlydm2intseq,random,70,0.10191827406415953
+ctxdlydm2intseq,random,80,0.06915200378788124
+dlydm1intseq,noise-prune + capped rescale,10,1.0000608020689468
+dlydm1intseq,noise-prune + capped rescale,20,0.9957534108716279
+dlydm1intseq,noise-prune + capped rescale,30,0.9950535173635556
+dlydm1intseq,noise-prune + capped rescale,40,0.9921469493560614
+dlydm1intseq,noise-prune + capped rescale,50,0.9570107280099345
+dlydm1intseq,noise-prune + capped rescale,60,0.885875359920385
+dlydm1intseq,noise-prune + capped rescale,70,0.6520785080200967
+dlydm1intseq,noise-prune + capped rescale,80,0.2797417795354347
+dlydm1intseq,noise-prune + rescale,10,1.0002126051380018
+dlydm1intseq,noise-prune + rescale,20,0.9966186424076539
+dlydm1intseq,noise-prune + rescale,30,0.9960495812507517
+dlydm1intseq,noise-prune + rescale,40,0.9904289033244393
+dlydm1intseq,noise-prune + rescale,50,0.949834843809143
+dlydm1intseq,noise-prune + rescale,60,0.8407188847065777
+dlydm1intseq,noise-prune + rescale,70,0.5546170219076612
+dlydm1intseq,noise-prune + rescale,80,0.22250254421917512
+dlydm1intseq,noise-prune score only,10,0.9974229860322198
+dlydm1intseq,noise-prune score only,20,0.9872180897373813
+dlydm1intseq,noise-prune score only,30,0.9661571301524677
+dlydm1intseq,noise-prune score only,40,0.950803108456156
+dlydm1intseq,noise-prune score only,50,0.8447598372690548
+dlydm1intseq,noise-prune score only,60,0.5126616375835321
+dlydm1intseq,noise-prune score only,70,0.21255652754811738
+dlydm1intseq,noise-prune score only,80,0.10587001268743308
+dlydm1intseq,magnitude + capped rescale,10,0.9991799086207259
+dlydm1intseq,magnitude + capped rescale,20,0.9968582700675549
+dlydm1intseq,magnitude + capped rescale,30,0.9977758535155675
+dlydm1intseq,magnitude + capped rescale,40,0.9844782851255137
+dlydm1intseq,magnitude + capped rescale,50,0.9479268539312206
+dlydm1intseq,magnitude + capped rescale,60,0.8342942818760042
+dlydm1intseq,magnitude + capped rescale,70,0.5327155310951764
+dlydm1intseq,magnitude + capped rescale,80,0.22270387386914695
+dlydm1intseq,magnitude + rescale,10,0.9991822256236773
+dlydm1intseq,magnitude + rescale,20,0.9963651813379782
+dlydm1intseq,magnitude + rescale,30,0.9963958170144308
+dlydm1intseq,magnitude + rescale,40,0.9811408220655249
+dlydm1intseq,magnitude + rescale,50,0.9419502605627216
+dlydm1intseq,magnitude + rescale,60,0.8208869349238207
+dlydm1intseq,magnitude + rescale,70,0.5121127106482697
+dlydm1intseq,magnitude + rescale,80,0.22577281360113566
+dlydm1intseq,magnitude,10,1.000342108116407
+dlydm1intseq,magnitude,20,1.0015647672118344
+dlydm1intseq,magnitude,30,0.986778562377118
+dlydm1intseq,magnitude,40,0.9158281879046358
+dlydm1intseq,magnitude,50,0.7006293641207484
+dlydm1intseq,magnitude,60,0.34697153072370507
+dlydm1intseq,magnitude,70,0.13220359531950934
+dlydm1intseq,magnitude,80,0.060177869424839776
+dlydm1intseq,OBS,10,1.0000541922263972
+dlydm1intseq,OBS,20,1.0004642104534827
+dlydm1intseq,OBS,30,0.9997440745448346
+dlydm1intseq,OBS,40,0.9941251636385541
+dlydm1intseq,OBS,50,0.9343447773825546
+dlydm1intseq,OBS,60,0.6942976263132344
+dlydm1intseq,OBS,70,0.29385328224953816
+dlydm1intseq,OBS,80,0.09188322065499
+dlydm1intseq,random,10,0.34338719046876776
+dlydm1intseq,random,20,0.1090532850727068
+dlydm1intseq,random,30,0.05496475997701548
+dlydm1intseq,random,40,0.049144089299538334
+dlydm1intseq,random,50,0.07082503757622423
+dlydm1intseq,random,60,0.08935143400463587
+dlydm1intseq,random,70,0.10242815482533381
+dlydm1intseq,random,80,0.07251108157943244
+dlydm2intseq,noise-prune + capped rescale,10,0.9984470794480691
+dlydm2intseq,noise-prune + capped rescale,20,0.9988332150292946
+dlydm2intseq,noise-prune + capped rescale,30,0.9962364095247311
+dlydm2intseq,noise-prune + capped rescale,40,0.9734850491296202
+dlydm2intseq,noise-prune + capped rescale,50,0.9659078268005595
+dlydm2intseq,noise-prune + capped rescale,60,0.9350488570732214
+dlydm2intseq,noise-prune + capped rescale,70,0.7308129705299539
+dlydm2intseq,noise-prune + capped rescale,80,0.3330846560606282
+dlydm2intseq,noise-prune + rescale,10,0.9995226723983547
+dlydm2intseq,noise-prune + rescale,20,1.002368846936944
+dlydm2intseq,noise-prune + rescale,30,1.002194817238195
+dlydm2intseq,noise-prune + rescale,40,0.9814226378589631
+dlydm2intseq,noise-prune + rescale,50,0.96720117536612
+dlydm2intseq,noise-prune + rescale,60,0.9031748511090486
+dlydm2intseq,noise-prune + rescale,70,0.6308845877507312
+dlydm2intseq,noise-prune + rescale,80,0.26433394490264533
+dlydm2intseq,noise-prune score only,10,0.9909852662427486
+dlydm2intseq,noise-prune score only,20,0.9640280842053602
+dlydm2intseq,noise-prune score only,30,0.9384386156251114
+dlydm2intseq,noise-prune score only,40,0.9464545985710888
+dlydm2intseq,noise-prune score only,50,0.9169800691882551
+dlydm2intseq,noise-prune score only,60,0.6047889972157781
+dlydm2intseq,noise-prune score only,70,0.27255454670492735
+dlydm2intseq,noise-prune score only,80,0.13248021198395923
+dlydm2intseq,magnitude + capped rescale,10,0.9997570781406147
+dlydm2intseq,magnitude + capped rescale,20,1.00341775977491
+dlydm2intseq,magnitude + capped rescale,30,0.9940533195614405
+dlydm2intseq,magnitude + capped rescale,40,0.9910148404073519
+dlydm2intseq,magnitude + capped rescale,50,0.9743280711148672
+dlydm2intseq,magnitude + capped rescale,60,0.8968340475950548
+dlydm2intseq,magnitude + capped rescale,70,0.5842294822190516
+dlydm2intseq,magnitude + capped rescale,80,0.25940821594794133
+dlydm2intseq,magnitude + rescale,10,0.9999304454034115
+dlydm2intseq,magnitude + rescale,20,1.0026349626083013
+dlydm2intseq,magnitude + rescale,30,0.9912029546922598
+dlydm2intseq,magnitude + rescale,40,0.9851832251364058
+dlydm2intseq,magnitude + rescale,50,0.9668680741350943
+dlydm2intseq,magnitude + rescale,60,0.8799983969036479
+dlydm2intseq,magnitude + rescale,70,0.5711092876883085
+dlydm2intseq,magnitude + rescale,80,0.2567191793692724
+dlydm2intseq,magnitude,10,1.0026003022923202
+dlydm2intseq,magnitude,20,1.0164778834007813
+dlydm2intseq,magnitude,30,1.0388462004961954
+dlydm2intseq,magnitude,40,1.0214622996364733
+dlydm2intseq,magnitude,50,0.7974101617150557
+dlydm2intseq,magnitude,60,0.3974281819122088
+dlydm2intseq,magnitude,70,0.14948481391384963
+dlydm2intseq,magnitude,80,0.07441984189466398
+dlydm2intseq,OBS,10,1.000255957867491
+dlydm2intseq,OBS,20,1.0028644348990172
+dlydm2intseq,OBS,30,1.0126504183451221
+dlydm2intseq,OBS,40,1.0332306825786923
+dlydm2intseq,OBS,50,1.0165080451893782
+dlydm2intseq,OBS,60,0.7725517169249377
+dlydm2intseq,OBS,70,0.3125358503913462
+dlydm2intseq,OBS,80,0.10576016726068838
+dlydm2intseq,random,10,0.444945849493749
+dlydm2intseq,random,20,0.1334763334786158
+dlydm2intseq,random,30,0.07270103385216871
+dlydm2intseq,random,40,0.06257307580934561
+dlydm2intseq,random,50,0.09022829668437297
+dlydm2intseq,random,60,0.11110282360873269
+dlydm2intseq,random,70,0.11464919709107495
+dlydm2intseq,random,80,0.08253184794367961
+dm1seqr,noise-prune + capped rescale,10,1.0000393896297382
+dm1seqr,noise-prune + capped rescale,20,0.9987875862393342
+dm1seqr,noise-prune + capped rescale,30,0.9976147917677598
+dm1seqr,noise-prune + capped rescale,40,0.9964865601263154
+dm1seqr,noise-prune + capped rescale,50,0.99446231763328
+dm1seqr,noise-prune + capped rescale,60,0.98785377239496
+dm1seqr,noise-prune + capped rescale,70,0.9740074177302018
+dm1seqr,noise-prune + capped rescale,80,0.9101047951637159
+dm1seqr,noise-prune + rescale,10,0.9999889285839542
+dm1seqr,noise-prune + rescale,20,0.9988748286762039
+dm1seqr,noise-prune + rescale,30,0.998265891990436
+dm1seqr,noise-prune + rescale,40,0.9980220186271995
+dm1seqr,noise-prune + rescale,50,0.9960421277661046
+dm1seqr,noise-prune + rescale,60,0.9882961776725457
+dm1seqr,noise-prune + rescale,70,0.9673595677717789
+dm1seqr,noise-prune + rescale,80,0.9114851692682743
+dm1seqr,noise-prune score only,10,0.9991077152620901
+dm1seqr,noise-prune score only,20,0.994806716277004
+dm1seqr,noise-prune score only,30,0.9866039480681517
+dm1seqr,noise-prune score only,40,0.9724848062522655
+dm1seqr,noise-prune score only,50,0.9407437372520074
+dm1seqr,noise-prune score only,60,0.8639247339780315
+dm1seqr,noise-prune score only,70,0.6649235742237329
+dm1seqr,noise-prune score only,80,0.32606249774134893
+dm1seqr,magnitude + capped rescale,10,0.999858397641241
+dm1seqr,magnitude + capped rescale,20,0.9993491643986253
+dm1seqr,magnitude + capped rescale,30,0.9988526764458244
+dm1seqr,magnitude + capped rescale,40,0.9969168633925557
+dm1seqr,magnitude + capped rescale,50,0.9942438057893247
+dm1seqr,magnitude + capped rescale,60,0.9875598284714275
+dm1seqr,magnitude + capped rescale,70,0.9638863092061759
+dm1seqr,magnitude + capped rescale,80,0.8475572041108576
+dm1seqr,magnitude + rescale,10,0.9998091662723522
+dm1seqr,magnitude + rescale,20,0.9991711185302838
+dm1seqr,magnitude + rescale,30,0.9988232072808533
+dm1seqr,magnitude + rescale,40,0.9967249073302384
+dm1seqr,magnitude + rescale,50,0.9935381594147286
+dm1seqr,magnitude + rescale,60,0.9881108889121656
+dm1seqr,magnitude + rescale,70,0.9693929701518572
+dm1seqr,magnitude + rescale,80,0.9117376815057033
+dm1seqr,magnitude,10,1.0000967113638246
+dm1seqr,magnitude,20,0.9998032031778837
+dm1seqr,magnitude,30,0.9969448169824743
+dm1seqr,magnitude,40,0.9811400862200221
+dm1seqr,magnitude,50,0.91046736212519
+dm1seqr,magnitude,60,0.7250809641027267
+dm1seqr,magnitude,70,0.4211488678095722
+dm1seqr,magnitude,80,0.18654767229742897
+dm1seqr,OBS,10,0.9999252649811452
+dm1seqr,OBS,20,0.9997598730884137
+dm1seqr,OBS,30,0.9989616342536488
+dm1seqr,OBS,40,0.9957154850058387
+dm1seqr,OBS,50,0.975263150161874
+dm1seqr,OBS,60,0.8938934491400014
+dm1seqr,OBS,70,0.689266974321152
+dm1seqr,OBS,80,0.3521974642638544
+dm1seqr,random,10,0.5834445506891782
+dm1seqr,random,20,0.23688149135156053
+dm1seqr,random,30,0.11077033196487439
+dm1seqr,random,40,0.049577177320792365
+dm1seqr,random,50,0.023900422847801042
+dm1seqr,random,60,0.013941243328836929
+dm1seqr,random,70,0.010011371235399703
+dm1seqr,random,80,0.00901844098819612
+dm2seql,noise-prune + capped rescale,10,1.0001459003027946
+dm2seql,noise-prune + capped rescale,20,1.0006643761890988
+dm2seql,noise-prune + capped rescale,30,1.001506575288242
+dm2seql,noise-prune + capped rescale,40,0.9989758816533524
+dm2seql,noise-prune + capped rescale,50,0.9970248346382355
+dm2seql,noise-prune + capped rescale,60,0.9897931403737963
+dm2seql,noise-prune + capped rescale,70,0.9751370617948685
+dm2seql,noise-prune + capped rescale,80,0.8785882047129349
+dm2seql,noise-prune + rescale,10,0.999872686870373
+dm2seql,noise-prune + rescale,20,0.9994499922355954
+dm2seql,noise-prune + rescale,30,0.9991553549441639
+dm2seql,noise-prune + rescale,40,0.9944723342316143
+dm2seql,noise-prune + rescale,50,0.9900345538079414
+dm2seql,noise-prune + rescale,60,0.9762073791284881
+dm2seql,noise-prune + rescale,70,0.9485683157051089
+dm2seql,noise-prune + rescale,80,0.8688058527186627
+dm2seql,noise-prune score only,10,1.0025538945119419
+dm2seql,noise-prune score only,20,1.0073434098173193
+dm2seql,noise-prune score only,30,1.0090223804674254
+dm2seql,noise-prune score only,40,0.997646553483147
+dm2seql,noise-prune score only,50,0.948176264938558
+dm2seql,noise-prune score only,60,0.812230739263018
+dm2seql,noise-prune score only,70,0.5592015100204267
+dm2seql,noise-prune score only,80,0.2693280576445081
+dm2seql,magnitude + capped rescale,10,0.9998957880918443
+dm2seql,magnitude + capped rescale,20,0.9991118911347875
+dm2seql,magnitude + capped rescale,30,0.9976393920664696
+dm2seql,magnitude + capped rescale,40,0.9954786709782634
+dm2seql,magnitude + capped rescale,50,0.985956603002716
+dm2seql,magnitude + capped rescale,60,0.9790603224283428
+dm2seql,magnitude + capped rescale,70,0.9461538578203296
+dm2seql,magnitude + capped rescale,80,0.806218438936309
+dm2seql,magnitude + rescale,10,0.99989312521214
+dm2seql,magnitude + rescale,20,0.9990387292010534
+dm2seql,magnitude + rescale,30,0.9975680357666454
+dm2seql,magnitude + rescale,40,0.9956105416076974
+dm2seql,magnitude + rescale,50,0.9873799634315749
+dm2seql,magnitude + rescale,60,0.982142186484264
+dm2seql,magnitude + rescale,70,0.9576251066883992
+dm2seql,magnitude + rescale,80,0.8873861298450927
+dm2seql,magnitude,10,0.9997019977281406
+dm2seql,magnitude,20,0.9972486088849454
+dm2seql,magnitude,30,0.9833594494249104
+dm2seql,magnitude,40,0.9451055927323924
+dm2seql,magnitude,50,0.8436953100428872
+dm2seql,magnitude,60,0.639759394848788
+dm2seql,magnitude,70,0.37906444915883625
+dm2seql,magnitude,80,0.17613295020168943
+dm2seql,OBS,10,1.0000220160949798
+dm2seql,OBS,20,0.999674921994155
+dm2seql,OBS,30,0.9955077522282799
+dm2seql,OBS,40,0.9835785010442043
+dm2seql,OBS,50,0.9349331232309673
+dm2seql,OBS,60,0.7879198467049017
+dm2seql,OBS,70,0.510956046992956
+dm2seql,OBS,80,0.2423611183816642
+dm2seql,random,10,0.5245421405188776
+dm2seql,random,20,0.21592928642470188
+dm2seql,random,30,0.10233796219717933
+dm2seql,random,40,0.04651031865553213
+dm2seql,random,50,0.021954745141825754
+dm2seql,random,60,0.0116512249341048
+dm2seql,random,70,0.008120634474744877
+dm2seql,random,80,0.008110556280859204
+dmsintseq,noise-prune + capped rescale,10,0.9997822075340377
+dmsintseq,noise-prune + capped rescale,20,0.9988793753073505
+dmsintseq,noise-prune + capped rescale,30,0.9973708104894162
+dmsintseq,noise-prune + capped rescale,40,0.9929566783740214
+dmsintseq,noise-prune + capped rescale,50,0.9495746769117767
+dmsintseq,noise-prune + capped rescale,60,0.8188483976654938
+dmsintseq,noise-prune + capped rescale,70,0.4346092199714504
+dmsintseq,noise-prune + capped rescale,80,0.14967419616536792
+dmsintseq,noise-prune + rescale,10,0.9999564127184662
+dmsintseq,noise-prune + rescale,20,0.9988655536955302
+dmsintseq,noise-prune + rescale,30,0.9944230545377318
+dmsintseq,noise-prune + rescale,40,0.9744614220492963
+dmsintseq,noise-prune + rescale,50,0.8948138861754139
+dmsintseq,noise-prune + rescale,60,0.6404623735895064
+dmsintseq,noise-prune + rescale,70,0.27975032937362404
+dmsintseq,noise-prune + rescale,80,0.1323300749044452
+dmsintseq,noise-prune score only,10,0.9981314496173296
+dmsintseq,noise-prune score only,20,0.9779895614421724
+dmsintseq,noise-prune score only,30,0.9101639000230305
+dmsintseq,noise-prune score only,40,0.8543063895027908
+dmsintseq,noise-prune score only,50,0.9040874980405539
+dmsintseq,noise-prune score only,60,0.3301416837822106
+dmsintseq,noise-prune score only,70,0.004260146834078499
+dmsintseq,noise-prune score only,80,4.587915103905486e-05
+dmsintseq,magnitude + capped rescale,10,0.9996718312522169
+dmsintseq,magnitude + capped rescale,20,0.9988590346671238
+dmsintseq,magnitude + capped rescale,30,0.9964129313231238
+dmsintseq,magnitude + capped rescale,40,0.9733191162289634
+dmsintseq,magnitude + capped rescale,50,0.8982315051508443
+dmsintseq,magnitude + capped rescale,60,0.6767895615780529
+dmsintseq,magnitude + capped rescale,70,0.36818364794365904
+dmsintseq,magnitude + capped rescale,80,0.12142101410585783
+dmsintseq,magnitude + rescale,10,0.9998462367574072
+dmsintseq,magnitude + rescale,20,0.998696670606828
+dmsintseq,magnitude + rescale,30,0.995081598272663
+dmsintseq,magnitude + rescale,40,0.971025645871364
+dmsintseq,magnitude + rescale,50,0.8940291271700206
+dmsintseq,magnitude + rescale,60,0.6436640073296881
+dmsintseq,magnitude + rescale,70,0.33925981706770303
+dmsintseq,magnitude + rescale,80,0.13327394356852337
+dmsintseq,magnitude,10,1.000517961867988
+dmsintseq,magnitude,20,1.0028422349086765
+dmsintseq,magnitude,30,0.9965267297991139
+dmsintseq,magnitude,40,0.964501412361765
+dmsintseq,magnitude,50,0.788267880244686
+dmsintseq,magnitude,60,0.22310545855507202
+dmsintseq,magnitude,70,0.0038461667824456892
+dmsintseq,magnitude,80,7.373434988423707e-06
+dmsintseq,OBS,10,0.9995204705405912
+dmsintseq,OBS,20,0.9985275075525138
+dmsintseq,OBS,30,0.9925227130333699
+dmsintseq,OBS,40,0.9861591689001518
+dmsintseq,OBS,50,0.9100936290851261
+dmsintseq,OBS,60,0.7696903945280988
+dmsintseq,OBS,70,0.41210428739842064
+dmsintseq,OBS,80,0.00016694405834303744
+dmsintseq,random,10,0.04145381649015952
+dmsintseq,random,20,0.00023365396903207995
+dmsintseq,random,30,4.096352771346504e-06
+dmsintseq,random,40,8.192705542693007e-07
+dmsintseq,random,50,0.0
+dmsintseq,random,60,0.0024701846026837413
+dmsintseq,random,70,0.07174894262484922
+dmsintseq,random,80,0.10746375684983456
+multidlydmintseq,noise-prune + capped rescale,10,0.9999250784583241
+multidlydmintseq,noise-prune + capped rescale,20,1.0002328457288143
+multidlydmintseq,noise-prune + capped rescale,30,1.0002424385116389
+multidlydmintseq,noise-prune + capped rescale,40,0.98634167101258
+multidlydmintseq,noise-prune + capped rescale,50,0.9511460984704594
+multidlydmintseq,noise-prune + capped rescale,60,0.8429779064863717
+multidlydmintseq,noise-prune + capped rescale,70,0.6091372537777476
+multidlydmintseq,noise-prune + capped rescale,80,0.2928795693109385
+multidlydmintseq,noise-prune + rescale,10,0.9993590530678484
+multidlydmintseq,noise-prune + rescale,20,0.997785950235636
+multidlydmintseq,noise-prune + rescale,30,0.9946195931498476
+multidlydmintseq,noise-prune + rescale,40,0.9741056557676665
+multidlydmintseq,noise-prune + rescale,50,0.9240543443901325
+multidlydmintseq,noise-prune + rescale,60,0.7797262907414554
+multidlydmintseq,noise-prune + rescale,70,0.521856961099059
+multidlydmintseq,noise-prune + rescale,80,0.23388785082825378
+multidlydmintseq,noise-prune score only,10,1.0061014089993672
+multidlydmintseq,noise-prune score only,20,1.0152879343371666
+multidlydmintseq,noise-prune score only,30,1.0137816858469195
+multidlydmintseq,noise-prune score only,40,0.9845361151439026
+multidlydmintseq,noise-prune score only,50,0.8583128554455771
+multidlydmintseq,noise-prune score only,60,0.5626958986389442
+multidlydmintseq,noise-prune score only,70,0.2508523704557723
+multidlydmintseq,noise-prune score only,80,0.10592122772360063
+multidlydmintseq,magnitude + capped rescale,10,0.9999457727348204
+multidlydmintseq,magnitude + capped rescale,20,0.9964518502672658
+multidlydmintseq,magnitude + capped rescale,30,0.9934650959557336
+multidlydmintseq,magnitude + capped rescale,40,0.9579576056119811
+multidlydmintseq,magnitude + capped rescale,50,0.8875054183564822
+multidlydmintseq,magnitude + capped rescale,60,0.7674551034617535
+multidlydmintseq,magnitude + capped rescale,70,0.49121443236330015
+multidlydmintseq,magnitude + capped rescale,80,0.22207405326250196
+multidlydmintseq,magnitude + rescale,10,1.0002458123949676
+multidlydmintseq,magnitude + rescale,20,0.996634326325852
+multidlydmintseq,magnitude + rescale,30,0.9940934218182061
+multidlydmintseq,magnitude + rescale,40,0.9584373634943035
+multidlydmintseq,magnitude + rescale,50,0.8867845164910918
+multidlydmintseq,magnitude + rescale,60,0.7560937903852358
+multidlydmintseq,magnitude + rescale,70,0.4699508957022381
+multidlydmintseq,magnitude + rescale,80,0.213653091433914
+multidlydmintseq,magnitude,10,0.999038808701228
+multidlydmintseq,magnitude,20,0.9930599696981095
+multidlydmintseq,magnitude,30,0.9615422101978183
+multidlydmintseq,magnitude,40,0.8632105004281349
+multidlydmintseq,magnitude,50,0.6480309569460353
+multidlydmintseq,magnitude,60,0.36680014883435974
+multidlydmintseq,magnitude,70,0.1658908656351168
+multidlydmintseq,magnitude,80,0.07522864029012873
+multidlydmintseq,OBS,10,0.9999918448759667
+multidlydmintseq,OBS,20,0.9991995496058509
+multidlydmintseq,OBS,30,0.9927458563159851
+multidlydmintseq,OBS,40,0.970368988923985
+multidlydmintseq,OBS,50,0.8851118225051136
+multidlydmintseq,OBS,60,0.6751026870869827
+multidlydmintseq,OBS,70,0.34631514595131624
+multidlydmintseq,OBS,80,0.12161022175618486
+multidlydmintseq,random,10,0.34955744675278505
+multidlydmintseq,random,20,0.1338689947976769
+multidlydmintseq,random,30,0.07398436662087171
+multidlydmintseq,random,40,0.06383843411570155
+multidlydmintseq,random,50,0.07465690801616469
+multidlydmintseq,random,60,0.08172334269060616
+multidlydmintseq,random,70,0.10203248413384212
+multidlydmintseq,random,80,0.08623695647616057
