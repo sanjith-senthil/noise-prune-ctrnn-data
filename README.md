@@ -14,6 +14,16 @@ The deposited model data are the 24 selected H=512 CTRNN checkpoints:
 - checkpoint selection by validation sequence accuracy, with validation
   cross-entropy loss as the tie-break
 
+The deposit ships the trained networks for both hidden sizes: 24 at H=512 and 24
+at H=1024, plus the six dm1/anti controls. Every checkpoint any deposited suite
+loads is here, so each result can be regenerated from the code release.
+
+The fixed evaluation and pruning-score batches are NOT deposited -- they are
+2.9 GB of cache. They are not needed: the runner rebuilds and re-caches them
+deterministically from the seeds recorded in every config (`eval_seed` 200000,
+`score_batch_seed` 100000 + pruning seed), so a reproduction regenerates the
+same batches rather than downloading them.
+
 The deposited result files cover:
 
 - the task-retention benchmark across 10-80% sparsity at hidden sizes 512 and

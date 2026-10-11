@@ -7,13 +7,133 @@
     },
     {
       "path": "README.md",
-      "bytes": 8746,
-      "sha256": "fd9be58b6cb52807b537b7aef57428a6b6771ffff21cc1a7a4cbd5384fa2b9d2"
+      "bytes": 9334,
+      "sha256": "8c1bd434c662fa987f20ca95c28d3e7d1b91779fd1f02637e649247d98a1c164"
     },
     {
       "path": "SUPERSEDED.md",
       "bytes": 7263,
       "sha256": "0f8eced0984bad2c1b6f6d8f280446a975bf7ddb37fed1f8e1fed750e260cd91"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed0/modcog_ctxdlydm1intseq_seed0.pt",
+      "bytes": 4411042,
+      "sha256": "79eac531cdc621ea3c0d86ccb29e6c555f4263d2652c91b563328f3fd981c7fa"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed0/modcog_ctxdlydm2intseq_seed0.pt",
+      "bytes": 4411042,
+      "sha256": "c49808807d9dbfa479df32608eeca82c5ed6cb7869a97dd382e01f502d6b202d"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed0/modcog_dlydm1intseq_seed0.pt",
+      "bytes": 4411003,
+      "sha256": "e62831c4fce66daf8a174c11b2460014016f0bd50d437f006cce087ac74454f3"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed0/modcog_dlydm2intseq_seed0.pt",
+      "bytes": 4411003,
+      "sha256": "d80d0c46e5c62b0a8ba88cadb7497c22e06d815c510569eb8107cbe33e691431"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed0/modcog_dm1seqr_seed0.pt",
+      "bytes": 4410874,
+      "sha256": "b30c009c2c098a7fcb2827107ff69ecde7c5cf3e4662ff1d0f5b48321d2cfc4b"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed0/modcog_dm2seql_seed0.pt",
+      "bytes": 4410874,
+      "sha256": "bcfead79ab44458f04f527fefc65ce9b8fe85c0c16160e65b016c8de8b8a8782"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed0/modcog_dmsintseq_seed0.pt",
+      "bytes": 4410964,
+      "sha256": "9cdafa9a0b8214712b14416d089ea7bedfab7dca048fb9c84aa1acab8c6df1d1"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed0/modcog_multidlydmintseq_seed0.pt",
+      "bytes": 4411055,
+      "sha256": "8357e57ac027abd6292c4caa7472c3e3f0a35a3acfdd5f03ca863eca3ced5593"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed1/modcog_ctxdlydm1intseq_seed1.pt",
+      "bytes": 4411042,
+      "sha256": "3105f709279c294b20b78cab75774a027ee2e265e1ecdbb6330ae3ca264ae5bc"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed1/modcog_ctxdlydm2intseq_seed1.pt",
+      "bytes": 4411042,
+      "sha256": "8d20019802731123288d02581f44914155e5ac5b2834bc1cfd2c3f9d866da3b0"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed1/modcog_dlydm1intseq_seed1.pt",
+      "bytes": 4411003,
+      "sha256": "c668d26eeace1b8abc1712e4d66b72a32d75cc53a8361b246ded1560cddfbbd4"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed1/modcog_dlydm2intseq_seed1.pt",
+      "bytes": 4411003,
+      "sha256": "0659969ee2307b3a2bc41cefe8c13de69905d5c17610135acecaaf5eb76924d2"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed1/modcog_dm1seqr_seed1.pt",
+      "bytes": 4410874,
+      "sha256": "92d60137fdd445af2bf9215fc7d24df8e0325ece812e7969f3a358d5ce5d7231"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed1/modcog_dm2seql_seed1.pt",
+      "bytes": 4410874,
+      "sha256": "effcf0d1f2a3225dcace686ea8f2487fb2c2c5e659f188eb65370d5dd4d0f9aa"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed1/modcog_dmsintseq_seed1.pt",
+      "bytes": 4410964,
+      "sha256": "29d9f4a391cf566951e4adca489d0f5646d4f45cc6a5e0f1ebde676c5374cff2"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed1/modcog_multidlydmintseq_seed1.pt",
+      "bytes": 4411055,
+      "sha256": "3c4e61447e0051e79c3afb7f70e0e65c21f7c5e9773928bbd86b735b804e151e"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_ctxdlydm1intseq_seed2.pt",
+      "bytes": 4411042,
+      "sha256": "8706bc6aa36944023821ec43afa6c9c4944e3caf538f4cb90846773602e00e54"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_ctxdlydm2intseq_seed2.pt",
+      "bytes": 4411042,
+      "sha256": "610eb72e0f9aec41167110d342cdc66d1fd07b9c26f72c13ffeac76dc463b7a8"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dlydm1intseq_seed2.pt",
+      "bytes": 4411003,
+      "sha256": "6c3285517e2250b880ee158034d2c3291b4d78e1219953ef328a2c00f33f2009"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dlydm2intseq_seed2.pt",
+      "bytes": 4411003,
+      "sha256": "85247d259ac149b1114a0ab66c806cf89ec0404f2ac461b14f6a5e24627dff4b"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dm1seqr_seed2.pt",
+      "bytes": 4410874,
+      "sha256": "186de491a9139c74dfe8d5dd5027d21ffc3b4b16d6fbc7346d1a49b64ed2af94"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dm2seql_seed2.pt",
+      "bytes": 4410874,
+      "sha256": "80990f1b47a5138e7eda3cee98c10f8850eef6ee5c2ee1b64ff9c56ea88f93ae"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_dmsintseq_seed2.pt",
+      "bytes": 4410964,
+      "sha256": "b68c9387b329924dbedca87f46d9a0c66c17e6c9cd9eab13985cb21674c2ed3d"
+    },
+    {
+      "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed2/modcog_multidlydmintseq_seed2.pt",
+      "bytes": 4411055,
+      "sha256": "e7157505e9b3c447e8d398b382cc91b497656304c228199f5d7b935c231cd443"
     },
     {
       "path": "checkpoints/tanh_h512_modcog_dm1anti_to12k_lr0006_seqbest_no_l2_seed0/modcog_anti_seed0.pt",
