@@ -6,14 +6,19 @@
       "sha256": "6f5ef2e3a6bd899a7f379e73d7adf79b37c152577a85c21a52a6543c7993b1f0"
     },
     {
+      "path": "LICENSE",
+      "bytes": 966,
+      "sha256": "ebc09c98392a90ddb9aaf37a7cf60faaa2df731715f0bc7ab233673f28e7f928"
+    },
+    {
       "path": "README.md",
-      "bytes": 9334,
-      "sha256": "8c1bd434c662fa987f20ca95c28d3e7d1b91779fd1f02637e649247d98a1c164"
+      "bytes": 9662,
+      "sha256": "e562cc3c82c4d1027c4ce2fe0febdab426feb480d5c9ecfd10a1a84ab5cd5624"
     },
     {
       "path": "SUPERSEDED.md",
-      "bytes": 7263,
-      "sha256": "0f8eced0984bad2c1b6f6d8f280446a975bf7ddb37fed1f8e1fed750e260cd91"
+      "bytes": 8489,
+      "sha256": "1d9d33b5572bc5694d50045b52c71632b5bd7656cc60af198f7a2d69324c0e63"
     },
     {
       "path": "checkpoints/tanh_h1024_modcog_revised8_to12k_lr0006_seqbest_no_l2_seed0/modcog_ctxdlydm1intseq_seed0.pt",
@@ -2071,6 +2076,326 @@
       "sha256": "955ea7630eda9595d804ef92a597de9c5643ffc5ca211f6c5b9290fc075e56dd"
     },
     {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm1intseq_p10.json",
+      "bytes": 44720,
+      "sha256": "c16eb19275b5bba07670d3ab138754d405d3d694c549719b63be70fdfae2287b"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm1intseq_p20.json",
+      "bytes": 42383,
+      "sha256": "d2268b1a1e56bff38e87aa69504f51f1d4f32f80ba7ad9261e92a37bbf50d4fd"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm1intseq_p30.json",
+      "bytes": 42383,
+      "sha256": "71a0f5c93200baf00c96f06c3421fec5e33551126c6951248ed3adef53d3b830"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm1intseq_p40.json",
+      "bytes": 42383,
+      "sha256": "a4b6dd4559ababe48cd80d3b642413500f5604d5359cafe17840ddadacf25549"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm2intseq_p10.json",
+      "bytes": 44720,
+      "sha256": "643b66e6dad14ba0a39ba38e364a0dd37a0b6e43d1a675a54ab4305dedd78028"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm2intseq_p20.json",
+      "bytes": 42383,
+      "sha256": "87c1bd32cef23434afd23caab776e9f42474865d5cf285c34cd56db71d5e8501"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm2intseq_p30.json",
+      "bytes": 42383,
+      "sha256": "a5763d8371cf6fb22ab01ba5b0ce04e8de9b6f1c69aae41fc3e9d9df8fe9779a"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm2intseq_p40.json",
+      "bytes": 42383,
+      "sha256": "4b637a8df537f91c16ee3f4893acbd07bbc183bd149b4564dac4a40a6d18fa7b"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm1intseq_p10.json",
+      "bytes": 43787,
+      "sha256": "2c1bbe2daf9a5a45a16ec06682b8ed8d63db353af4b74f606d0c24ee3af786c5"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm1intseq_p20.json",
+      "bytes": 41504,
+      "sha256": "d1cd171cae25eeba00fae1c8ffd3cef1946079b3557960f92963a70ad87b2e88"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm1intseq_p30.json",
+      "bytes": 41504,
+      "sha256": "7eb0e3195146d9773c84e28926197137d3be65c459986338ea79db791b240985"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm1intseq_p40.json",
+      "bytes": 41504,
+      "sha256": "9ae02981d9286a5c347c5247bf7a4a1c6c2e2dd8579542538f0714e5a53f94bc"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm2intseq_p10.json",
+      "bytes": 43787,
+      "sha256": "bc34f1da7a149506e77eb0fb2aac17ab3d4064f1fa2a75858e7bf1485991fa70"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm2intseq_p20.json",
+      "bytes": 41504,
+      "sha256": "6e755c62eecfe5e485f16f9d04b260f049d7228c3255b17385ae536d91a01c2a"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm2intseq_p30.json",
+      "bytes": 41504,
+      "sha256": "59557eb183727807cce379f9110b2cce80880e9286d127801f6fb54238e3b31c"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm2intseq_p40.json",
+      "bytes": 41504,
+      "sha256": "ed749dcacc709f9a834c944f3449ee11b635c32a480499304ad4c64ce10c492f"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm1seqr_p10.json",
+      "bytes": 42232,
+      "sha256": "c86148d7fbf32fda58e1fbed313e65d2acbba9d32b7f616309a7fa9bee527880"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm1seqr_p20.json",
+      "bytes": 40039,
+      "sha256": "39a2b4b6338887be1a5db76470ed097e00b4517c06362befb9f2c2cbf03d0793"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm1seqr_p30.json",
+      "bytes": 40039,
+      "sha256": "81140920ad72f191ebd8055691ba4e6359325808cbfbef2773b2926c6298c19a"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm1seqr_p40.json",
+      "bytes": 40039,
+      "sha256": "593c29a9f9a2fc49bd8c4b085fa4c64a4fbb9e8db3b66853ec767ffb2fed881c"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm2seql_p10.json",
+      "bytes": 42232,
+      "sha256": "26f62f49cdfa28fb6ce1043d7f3f4cc17a23ec3c8caf2c34f9db02973f64ac6c"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm2seql_p20.json",
+      "bytes": 40039,
+      "sha256": "9a9bd166bca59da2f668f599f4e366bccaeb08545258fa0b18ccb4a8559e8789"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm2seql_p30.json",
+      "bytes": 40039,
+      "sha256": "959b6eb7a9639bf2578168bd3cb28f81d90328c260349ff17f0c2c4c6f068fef"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm2seql_p40.json",
+      "bytes": 40039,
+      "sha256": "bfb81c5b2ae2867847eeb54134e921870c0f76ef68a0be7a38b1ce15c6d03b7c"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dmsintseq_p10.json",
+      "bytes": 42854,
+      "sha256": "a341707715712e0e5a4d82c6e27ade6d814530071c57ed6ad6d6595267286a9d"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dmsintseq_p20.json",
+      "bytes": 40625,
+      "sha256": "6be8bb042441cd22b388fdab50e03e88138a5812651424c732ab7e44c55ee854"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dmsintseq_p30.json",
+      "bytes": 40625,
+      "sha256": "eeef37507a5fa469fe6e9380a36b8ecb7be06a7ced0288b78773036fcf50779d"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dmsintseq_p40.json",
+      "bytes": 40625,
+      "sha256": "4a3ba977b19f7354583dcab3e52a1b250e1bc25a504b5b7ecdec8f4b7f353e25"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_multidlydmintseq_p10.json",
+      "bytes": 45031,
+      "sha256": "3822ee6f89abc3fdd8bbfd398a0aedc7e7bdea020bf76f3342f050aaeada6536"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_multidlydmintseq_p20.json",
+      "bytes": 42676,
+      "sha256": "2b973697ab5d88652a74ee5d6097f4a25e2bb57273d4a3176bf68075c396cf4b"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_multidlydmintseq_p30.json",
+      "bytes": 42676,
+      "sha256": "4b19cc06cc4cad2c0befbe399e11097a05fde150622e226f5fbbb0559a048bc7"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_multidlydmintseq_p40.json",
+      "bytes": 42676,
+      "sha256": "b8f285a93bcdb7a7437d98af23eef0ee6b933c22d6d58738054ec7c2d7bd1bda"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_ctxdlydm1intseq_p50.json",
+      "bytes": 44576,
+      "sha256": "e1f22d6abfbbc73475bd48115c7858f0a80edc73f8976cc1fef3386698f4bf3f"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_ctxdlydm1intseq_p60.json",
+      "bytes": 42248,
+      "sha256": "c907c742e0015e6f9b0c3f00c346390f88468e00ecd4213c25b64c42b9124fc5"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_ctxdlydm1intseq_p70.json",
+      "bytes": 42248,
+      "sha256": "789e838c68a6a6bc2cc0915a61579af13b9b9bc3516d8cef6b431dc03da7827b"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_ctxdlydm1intseq_p80.json",
+      "bytes": 42248,
+      "sha256": "53e637b51602187e3decd17eb82addf0303896d3de8459473ad888a556da2e3a"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_ctxdlydm2intseq_p50.json",
+      "bytes": 44576,
+      "sha256": "53831fbbdbe5a34d52bdbbfe8a3ee513e053ff80880e78ba4053e120f0c883bb"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_ctxdlydm2intseq_p60.json",
+      "bytes": 42248,
+      "sha256": "45fe2ceb9709d74506dab920611243dce2b5956a1f23ccac6f88967aa89e2cc1"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_ctxdlydm2intseq_p70.json",
+      "bytes": 42248,
+      "sha256": "41fc35c7deb309c4f2a7f9a1a10388cbb3c4c7242282cb2397f2bc195c971d01"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_ctxdlydm2intseq_p80.json",
+      "bytes": 42248,
+      "sha256": "1b66fba9a69a7bfb1d987484a835ccd9d122be603978a928befb5487632e151e"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dlydm1intseq_p50.json",
+      "bytes": 43643,
+      "sha256": "213fa1cda06d439d7c64316049f06d5b629bb05863ed80be240fddea288ec61c"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dlydm1intseq_p60.json",
+      "bytes": 41369,
+      "sha256": "11efedaa6ca410cb060b435f01cf4b217e87caa5971c3c3fd78ba2cd0ee247d6"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dlydm1intseq_p70.json",
+      "bytes": 41369,
+      "sha256": "8ebdff6a78471b91991122fb66f3cba3455afee675666e742123094ae5f78a4c"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dlydm1intseq_p80.json",
+      "bytes": 41369,
+      "sha256": "e3769ce43a4effc76fac7b1ec1152f94a6a856cc68055316ad970ad3e459c728"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dlydm2intseq_p50.json",
+      "bytes": 43643,
+      "sha256": "3a57469c04a7ee441f60fb0ce7613555175534a5fa24edde1eb279239f4186d3"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dlydm2intseq_p60.json",
+      "bytes": 41369,
+      "sha256": "2611f5c435c81e052bb1cbce09f03e566e41312adfa341b5f02c805e7fd4d26c"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dlydm2intseq_p70.json",
+      "bytes": 41369,
+      "sha256": "ef2c23fc3188baa42fe7bad4dfb8a0604808b36c1ce300c82fbad3e3262eada1"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dlydm2intseq_p80.json",
+      "bytes": 41369,
+      "sha256": "bfda4876bab877a03dd7e022d8eb562d6c0ceb824f803f259db5b96c072d6c8d"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dm1seqr_p50.json",
+      "bytes": 42088,
+      "sha256": "b3c1445cd29aa18acdad9251d9387a4562b297e3620183ec4fcc1dba0ece03b3"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dm1seqr_p60.json",
+      "bytes": 39904,
+      "sha256": "f9bc2b9b887d445bb8bb91130eaa4d586bbaac97923f4acc794d4c43b8ae7046"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dm1seqr_p70.json",
+      "bytes": 39904,
+      "sha256": "b5a738fe8de88dadfbe90e58ff74e8a22728eccfb0cd0ad65037ccb1cbc43b19"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dm1seqr_p80.json",
+      "bytes": 39904,
+      "sha256": "03b9141b7739b4bc5c01538ef3d43b25593f04d796437bc3523617bb5663e7c8"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dm2seql_p50.json",
+      "bytes": 42088,
+      "sha256": "616c0e91eee391c55d8b27183002866eae07b86771e06971f4961d8cb9e2c315"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dm2seql_p60.json",
+      "bytes": 39904,
+      "sha256": "ff478fea6ab2169fa402c2547866bdc07cbec83702e50a12ef34a1e69fb69daa"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dm2seql_p70.json",
+      "bytes": 39904,
+      "sha256": "6d9b89b1a026f7a69ee646921e31629a23be6fa36f029255d043c83ff472198b"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dm2seql_p80.json",
+      "bytes": 39904,
+      "sha256": "ad3abcf4a3241c02902c69d27889b1cd85ba5853ce95ab7c04fbbf8e7711470a"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dmsintseq_p50.json",
+      "bytes": 42710,
+      "sha256": "b6c2598bec9e04bee33c0a038ac955a992b27d43c57885c81c5e988500485802"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dmsintseq_p60.json",
+      "bytes": 40490,
+      "sha256": "ab3028118327d930e16132d72ed92203ed1f0b1ae79533c201cdaf95bc017635"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dmsintseq_p70.json",
+      "bytes": 40490,
+      "sha256": "9c2d580169a2e496d9fb3fa81abafdbd7ff9dbe98b9cf1ba131ee54615f21176"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_dmsintseq_p80.json",
+      "bytes": 40490,
+      "sha256": "75168caad0c2cfea7c94ea793a65b1c71845b58d103b795e7a949097a7d9254b"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_multidlydmintseq_p50.json",
+      "bytes": 44887,
+      "sha256": "e34a30d62fa465c0a5213fd9e681dad3dd10fa4d2ee1d27f82c3e58b265b95f8"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_multidlydmintseq_p60.json",
+      "bytes": 42541,
+      "sha256": "10bdd02febaf5a029c2f7c28499ea4c2315e06268f9a8a016f200d3a1cd7b06a"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_multidlydmintseq_p70.json",
+      "bytes": 42541,
+      "sha256": "2ceb91cad0bfd309505e2e300a85454671f486d3ddc196e1d227da25288b7137"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_multidlydmintseq_p80.json",
+      "bytes": 42541,
+      "sha256": "c2f71eb442396e64c08beeb15d669cb94a87747df058932f8d473d67a55c5693"
+    },
+    {
       "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_covariance_ablation_full_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_covariance_ablation_full_p50_80_ctxdlydm1intseq.json",
       "bytes": 92238,
       "sha256": "f387d6eedd95df8e86b19570f95381d1bd897eb6d9af0d2c5b6a8ed747629f0e"
@@ -2269,6 +2594,166 @@
       "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_covariance_ablation_full_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_covariance_ablation_full_p50_80_multidlydmintseq_p80.json",
       "bytes": 23497,
       "sha256": "dad3dc6ec9340c3a65284d448b723b062b6b0bd986a8d18f599bfdea3f4d77c5"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm1intseq_p10.json",
+      "bytes": 15804,
+      "sha256": "d49299ec89b71511acf37e59e33931d155ffa8692ff27006322a6470b81419ce"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm1intseq_p20.json",
+      "bytes": 15804,
+      "sha256": "18529788d40223ffd5f7604a7c4a01e69fffe73d953dc476bca39cefc17b77e2"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm1intseq_p30.json",
+      "bytes": 15804,
+      "sha256": "f001acc4ec326f7653a15e5079810d1a6b3e3d47bf5280ad4d732db25945d84d"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm1intseq_p40.json",
+      "bytes": 15804,
+      "sha256": "e7a6110107f2980928fdbaefc651386179e84c2de5ca264380015646e88967b5"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm2intseq_p10.json",
+      "bytes": 15804,
+      "sha256": "34c1bb1e2b3a5c0ff414fbbfd171b1300f5e6fa26c504802930b80b49fbde108"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm2intseq_p20.json",
+      "bytes": 15804,
+      "sha256": "6cb62c0dfe6846be8ea5c1e41a98d0406640cabbf83b9b364367b46de2ddaa03"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm2intseq_p30.json",
+      "bytes": 15804,
+      "sha256": "c5501f3afa68d33e9be9096ba3e13b4cf9fffde532c70568c53fbb53dccea9a8"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm2intseq_p40.json",
+      "bytes": 15804,
+      "sha256": "96bba978807666e55fbeb21d7bf9c4896e7d4df398f4b346208d9bdeb334e31c"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm1intseq_p10.json",
+      "bytes": 15501,
+      "sha256": "ccf6790d861cccdba954ef19c1386e9eddcda264ca3174c8e69028058d38ce1b"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm1intseq_p20.json",
+      "bytes": 15501,
+      "sha256": "b0eb76f6e6b4b631d3ae8a7208438057b7d0c0f7d81e494586041a9b1fab53bb"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm1intseq_p30.json",
+      "bytes": 15501,
+      "sha256": "36879f6313cf84d6c8b236c88bf53b4c9b7055d6554f33fccd3d62707b63943d"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm1intseq_p40.json",
+      "bytes": 15501,
+      "sha256": "5902fe22f4848607476b02589ad26a6ad187911f78b1d5cf5494adb1a2e50fdb"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm2intseq_p10.json",
+      "bytes": 15501,
+      "sha256": "d9d2427ae2d07bfbae71c08d5b3f4a0c76100a816caf5c9855c800b7cd1d64a5"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm2intseq_p20.json",
+      "bytes": 15501,
+      "sha256": "7b3063ba89ab4b40b53a75b2b1702ebd44954e6caee3db6219a0ede217accc5f"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm2intseq_p30.json",
+      "bytes": 15501,
+      "sha256": "47404ad87a9c2451bb493e419ed6ca30f49d1e145856b925e2d3614550d33edf"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm2intseq_p40.json",
+      "bytes": 15501,
+      "sha256": "c2456c60f5010ac0bca3573237da743bec56cbdd92c2a77ffcc0b268a465e121"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm1seqr_p10.json",
+      "bytes": 14996,
+      "sha256": "e8ba6f3a64323dfddd882402ea1b9621487759df72eb305910b4736d919770ca"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm1seqr_p20.json",
+      "bytes": 14996,
+      "sha256": "98a1d712a94426fc36fa9aa04f6417259030e659837dec7741bde211d855aec5"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm1seqr_p30.json",
+      "bytes": 14996,
+      "sha256": "0af5c5d062845581c2901cd9e1ef1718d9272515307ed865ea90690618563371"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm1seqr_p40.json",
+      "bytes": 14996,
+      "sha256": "03e1db4589be9fc2f52e182058646bcd1eee7fef117ac2ed32be251ccb86cb58"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm2seql_p10.json",
+      "bytes": 14996,
+      "sha256": "12b77871a281df287caff807542b6e4d40d125df4628e5c2b4686b3521831528"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm2seql_p20.json",
+      "bytes": 14996,
+      "sha256": "d699a41847ede551da7f93ec85a44b9951aaf509396d9709dc34bb928a8663df"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm2seql_p30.json",
+      "bytes": 14996,
+      "sha256": "827ddfa0fa7f182f01c34901b67ee4e4ef29bfeb62fec3fd593899116b3e8647"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm2seql_p40.json",
+      "bytes": 14996,
+      "sha256": "3b5fe613700748dda77b3cb2fcfbec3c01116f234fdb41103fcdb0ec19f5648d"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dmsintseq_p10.json",
+      "bytes": 15198,
+      "sha256": "118f41157ec3763247d25800adbf4a36e3451a29455025b2de057eeadb9a1322"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dmsintseq_p20.json",
+      "bytes": 15198,
+      "sha256": "81eb8eb168c35abc2bfe8bb5a75f0e5b4448aca7e4cbaf9da8b6e319a10851b0"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dmsintseq_p30.json",
+      "bytes": 15198,
+      "sha256": "47e049585704c4189bb9dfc22f567ec4e5b06c63e66cf8bc8e1d5c1f717c60f7"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dmsintseq_p40.json",
+      "bytes": 15198,
+      "sha256": "28b3c6f04632b28a30aae7bdcd4bc5111e63097f55f43273e761daa79b842e98"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_multidlydmintseq_p10.json",
+      "bytes": 15905,
+      "sha256": "8efc9582d56375919896c705931020132d553e12c13a7e48a29a0e8d774a4185"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_multidlydmintseq_p20.json",
+      "bytes": 15905,
+      "sha256": "ed19bc72e8504d818176fdb0e53f162c2b0945bd5c5120843b632e40594d5d12"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_multidlydmintseq_p30.json",
+      "bytes": 15905,
+      "sha256": "355a2deafcef19c98b452c01b6bfe51ec568ec457642404707a518ace9cdbd22"
+    },
+    {
+      "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_multidlydmintseq_p40.json",
+      "bytes": 15905,
+      "sha256": "eabca0d2392f21faa25b67138a3c7a8542e309d5a364c0a8eae56207dbce821d"
     },
     {
       "path": "results/revision_2026/configs/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_low_sparsity_p10_40_ctxdlydm1intseq.json",
@@ -2761,6 +3246,351 @@
       "sha256": "747f2f99ce6bca9dba70991ffbdfeace8f8a5199bf9b7c39a85f0403981a90be"
     },
     {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm1intseq_p10.json",
+      "bytes": 15804,
+      "sha256": "d49299ec89b71511acf37e59e33931d155ffa8692ff27006322a6470b81419ce"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm1intseq_p20.json",
+      "bytes": 15804,
+      "sha256": "18529788d40223ffd5f7604a7c4a01e69fffe73d953dc476bca39cefc17b77e2"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm1intseq_p30.json",
+      "bytes": 15804,
+      "sha256": "f001acc4ec326f7653a15e5079810d1a6b3e3d47bf5280ad4d732db25945d84d"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm1intseq_p40.json",
+      "bytes": 15804,
+      "sha256": "e7a6110107f2980928fdbaefc651386179e84c2de5ca264380015646e88967b5"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm2intseq_p10.json",
+      "bytes": 15804,
+      "sha256": "34c1bb1e2b3a5c0ff414fbbfd171b1300f5e6fa26c504802930b80b49fbde108"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm2intseq_p20.json",
+      "bytes": 15804,
+      "sha256": "6cb62c0dfe6846be8ea5c1e41a98d0406640cabbf83b9b364367b46de2ddaa03"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm2intseq_p30.json",
+      "bytes": 15804,
+      "sha256": "c5501f3afa68d33e9be9096ba3e13b4cf9fffde532c70568c53fbb53dccea9a8"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_ctxdlydm2intseq_p40.json",
+      "bytes": 15804,
+      "sha256": "96bba978807666e55fbeb21d7bf9c4896e7d4df398f4b346208d9bdeb334e31c"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm1intseq_p10.json",
+      "bytes": 15501,
+      "sha256": "ccf6790d861cccdba954ef19c1386e9eddcda264ca3174c8e69028058d38ce1b"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm1intseq_p20.json",
+      "bytes": 15501,
+      "sha256": "b0eb76f6e6b4b631d3ae8a7208438057b7d0c0f7d81e494586041a9b1fab53bb"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm1intseq_p30.json",
+      "bytes": 15501,
+      "sha256": "36879f6313cf84d6c8b236c88bf53b4c9b7055d6554f33fccd3d62707b63943d"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm1intseq_p40.json",
+      "bytes": 15501,
+      "sha256": "5902fe22f4848607476b02589ad26a6ad187911f78b1d5cf5494adb1a2e50fdb"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm2intseq_p10.json",
+      "bytes": 15501,
+      "sha256": "d9d2427ae2d07bfbae71c08d5b3f4a0c76100a816caf5c9855c800b7cd1d64a5"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm2intseq_p20.json",
+      "bytes": 15501,
+      "sha256": "7b3063ba89ab4b40b53a75b2b1702ebd44954e6caee3db6219a0ede217accc5f"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm2intseq_p30.json",
+      "bytes": 15501,
+      "sha256": "47404ad87a9c2451bb493e419ed6ca30f49d1e145856b925e2d3614550d33edf"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dlydm2intseq_p40.json",
+      "bytes": 15501,
+      "sha256": "c2456c60f5010ac0bca3573237da743bec56cbdd92c2a77ffcc0b268a465e121"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm1seqr_p10.json",
+      "bytes": 14996,
+      "sha256": "e8ba6f3a64323dfddd882402ea1b9621487759df72eb305910b4736d919770ca"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm1seqr_p20.json",
+      "bytes": 14996,
+      "sha256": "98a1d712a94426fc36fa9aa04f6417259030e659837dec7741bde211d855aec5"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm1seqr_p30.json",
+      "bytes": 14996,
+      "sha256": "0af5c5d062845581c2901cd9e1ef1718d9272515307ed865ea90690618563371"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm1seqr_p40.json",
+      "bytes": 14996,
+      "sha256": "03e1db4589be9fc2f52e182058646bcd1eee7fef117ac2ed32be251ccb86cb58"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm2seql_p10.json",
+      "bytes": 14996,
+      "sha256": "12b77871a281df287caff807542b6e4d40d125df4628e5c2b4686b3521831528"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm2seql_p20.json",
+      "bytes": 14996,
+      "sha256": "d699a41847ede551da7f93ec85a44b9951aaf509396d9709dc34bb928a8663df"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm2seql_p30.json",
+      "bytes": 14996,
+      "sha256": "827ddfa0fa7f182f01c34901b67ee4e4ef29bfeb62fec3fd593899116b3e8647"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dm2seql_p40.json",
+      "bytes": 14996,
+      "sha256": "3b5fe613700748dda77b3cb2fcfbec3c01116f234fdb41103fcdb0ec19f5648d"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dmsintseq_p10.json",
+      "bytes": 15198,
+      "sha256": "118f41157ec3763247d25800adbf4a36e3451a29455025b2de057eeadb9a1322"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dmsintseq_p20.json",
+      "bytes": 15198,
+      "sha256": "81eb8eb168c35abc2bfe8bb5a75f0e5b4448aca7e4cbaf9da8b6e319a10851b0"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dmsintseq_p30.json",
+      "bytes": 15198,
+      "sha256": "47e049585704c4189bb9dfc22f567ec4e5b06c63e66cf8bc8e1d5c1f717c60f7"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_dmsintseq_p40.json",
+      "bytes": 15198,
+      "sha256": "28b3c6f04632b28a30aae7bdcd4bc5111e63097f55f43273e761daa79b842e98"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_multidlydmintseq_p10.json",
+      "bytes": 15905,
+      "sha256": "8efc9582d56375919896c705931020132d553e12c13a7e48a29a0e8d774a4185"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_multidlydmintseq_p20.json",
+      "bytes": 15905,
+      "sha256": "ed19bc72e8504d818176fdb0e53f162c2b0945bd5c5120843b632e40594d5d12"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_multidlydmintseq_p30.json",
+      "bytes": 15905,
+      "sha256": "355a2deafcef19c98b452c01b6bfe51ec568ec457642404707a518ace9cdbd22"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/fig3_lowsparsity_h512_p10_40/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_fig3_lowsparsity_p10_40_multidlydmintseq_p40.json",
+      "bytes": 15905,
+      "sha256": "eabca0d2392f21faa25b67138a3c7a8542e309d5a364c0a8eae56207dbce821d"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm1intseq_p10.json",
+      "bytes": 44720,
+      "sha256": "c16eb19275b5bba07670d3ab138754d405d3d694c549719b63be70fdfae2287b"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm1intseq_p20.json",
+      "bytes": 42383,
+      "sha256": "d2268b1a1e56bff38e87aa69504f51f1d4f32f80ba7ad9261e92a37bbf50d4fd"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm1intseq_p30.json",
+      "bytes": 42383,
+      "sha256": "71a0f5c93200baf00c96f06c3421fec5e33551126c6951248ed3adef53d3b830"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm1intseq_p40.json",
+      "bytes": 42383,
+      "sha256": "a4b6dd4559ababe48cd80d3b642413500f5604d5359cafe17840ddadacf25549"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm2intseq_p10.json",
+      "bytes": 44720,
+      "sha256": "643b66e6dad14ba0a39ba38e364a0dd37a0b6e43d1a675a54ab4305dedd78028"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm2intseq_p20.json",
+      "bytes": 42383,
+      "sha256": "87c1bd32cef23434afd23caab776e9f42474865d5cf285c34cd56db71d5e8501"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm2intseq_p30.json",
+      "bytes": 42383,
+      "sha256": "a5763d8371cf6fb22ab01ba5b0ce04e8de9b6f1c69aae41fc3e9d9df8fe9779a"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_ctxdlydm2intseq_p40.json",
+      "bytes": 42383,
+      "sha256": "4b637a8df537f91c16ee3f4893acbd07bbc183bd149b4564dac4a40a6d18fa7b"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm1intseq_p10.json",
+      "bytes": 43787,
+      "sha256": "2c1bbe2daf9a5a45a16ec06682b8ed8d63db353af4b74f606d0c24ee3af786c5"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm1intseq_p20.json",
+      "bytes": 41504,
+      "sha256": "d1cd171cae25eeba00fae1c8ffd3cef1946079b3557960f92963a70ad87b2e88"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm1intseq_p30.json",
+      "bytes": 41504,
+      "sha256": "7eb0e3195146d9773c84e28926197137d3be65c459986338ea79db791b240985"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm1intseq_p40.json",
+      "bytes": 41504,
+      "sha256": "9ae02981d9286a5c347c5247bf7a4a1c6c2e2dd8579542538f0714e5a53f94bc"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm2intseq_p10.json",
+      "bytes": 43787,
+      "sha256": "bc34f1da7a149506e77eb0fb2aac17ab3d4064f1fa2a75858e7bf1485991fa70"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm2intseq_p20.json",
+      "bytes": 41504,
+      "sha256": "6e755c62eecfe5e485f16f9d04b260f049d7228c3255b17385ae536d91a01c2a"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm2intseq_p30.json",
+      "bytes": 41504,
+      "sha256": "59557eb183727807cce379f9110b2cce80880e9286d127801f6fb54238e3b31c"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dlydm2intseq_p40.json",
+      "bytes": 41504,
+      "sha256": "ed749dcacc709f9a834c944f3449ee11b635c32a480499304ad4c64ce10c492f"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm1seqr_p10.json",
+      "bytes": 42232,
+      "sha256": "c86148d7fbf32fda58e1fbed313e65d2acbba9d32b7f616309a7fa9bee527880"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm1seqr_p20.json",
+      "bytes": 40039,
+      "sha256": "39a2b4b6338887be1a5db76470ed097e00b4517c06362befb9f2c2cbf03d0793"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm1seqr_p30.json",
+      "bytes": 40039,
+      "sha256": "81140920ad72f191ebd8055691ba4e6359325808cbfbef2773b2926c6298c19a"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm1seqr_p40.json",
+      "bytes": 40039,
+      "sha256": "593c29a9f9a2fc49bd8c4b085fa4c64a4fbb9e8db3b66853ec767ffb2fed881c"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm2seql_p10.json",
+      "bytes": 42232,
+      "sha256": "26f62f49cdfa28fb6ce1043d7f3f4cc17a23ec3c8caf2c34f9db02973f64ac6c"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm2seql_p20.json",
+      "bytes": 40039,
+      "sha256": "9a9bd166bca59da2f668f599f4e366bccaeb08545258fa0b18ccb4a8559e8789"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm2seql_p30.json",
+      "bytes": 40039,
+      "sha256": "959b6eb7a9639bf2578168bd3cb28f81d90328c260349ff17f0c2c4c6f068fef"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dm2seql_p40.json",
+      "bytes": 40039,
+      "sha256": "bfb81c5b2ae2867847eeb54134e921870c0f76ef68a0be7a38b1ce15c6d03b7c"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dmsintseq_p10.json",
+      "bytes": 42854,
+      "sha256": "a341707715712e0e5a4d82c6e27ade6d814530071c57ed6ad6d6595267286a9d"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dmsintseq_p20.json",
+      "bytes": 40625,
+      "sha256": "6be8bb042441cd22b388fdab50e03e88138a5812651424c732ab7e44c55ee854"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dmsintseq_p30.json",
+      "bytes": 40625,
+      "sha256": "eeef37507a5fa469fe6e9380a36b8ecb7be06a7ced0288b78773036fcf50779d"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_dmsintseq_p40.json",
+      "bytes": 40625,
+      "sha256": "4a3ba977b19f7354583dcab3e52a1b250e1bc25a504b5b7ecdec8f4b7f353e25"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_multidlydmintseq_p10.json",
+      "bytes": 45031,
+      "sha256": "3822ee6f89abc3fdd8bbfd398a0aedc7e7bdea020bf76f3342f050aaeada6536"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_multidlydmintseq_p20.json",
+      "bytes": 42676,
+      "sha256": "2b973697ab5d88652a74ee5d6097f4a25e2bb57273d4a3176bf68075c396cf4b"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_multidlydmintseq_p30.json",
+      "bytes": 42676,
+      "sha256": "4b19cc06cc4cad2c0befbe399e11097a05fde150622e226f5fbbb0559a048bc7"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/configs/size_h1024_p10_40/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p10_40_multidlydmintseq_p40.json",
+      "bytes": 42676,
+      "sha256": "b8f285a93bcdb7a7437d98af23eef0ee6b933c22d6d58738054ec7c2d7bd1bda"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/fig3_lowsparsity_h512_p10_40.csv",
+      "bytes": 4616965,
+      "sha256": "ca60b10d4b6d9d9f006ba0a61fef29c6876a941617754f609fdc56e066dc5978"
+    },
+    {
+      "path": "results/revision_2026/sharded_suites/size_h1024_p10_40.csv",
+      "bytes": 16656895,
+      "sha256": "26523a2df92501fc404692c9759fc985d1bf311d6b62c0522e265c2c44a4597a"
+    },
+    {
+      "path": "results/revision_2026/size_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_covariance_contribution.csv",
+      "bytes": 1145,
+      "sha256": "b6c538f5d53b0e842e5d0bde5135d9cca8da3043cf29d8461a4348d40f5d82b1"
+    },
+    {
+      "path": "results/revision_2026/size_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_raw.csv",
+      "bytes": 24650300,
+      "sha256": "74766c462d1df2b4ab97968cc76e2dbc734d0367627b2cea65cb55759927e0f2"
+    },
+    {
+      "path": "results/revision_2026/size_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_summary_by_sparsity.csv",
+      "bytes": 3018,
+      "sha256": "f3cf76185d3ca6ebbbf11a1365d32386cb0dca2d552de916f7de9121490801e3"
+    },
+    {
       "path": "results/revision_2026/statistics/paper_relevant_amplification_descriptive_statistics.csv",
       "bytes": 4553,
       "sha256": "832cfc6e76e9b9780e519d83330c0f8ca214c2a22216173573edc12e07ad1c39"
@@ -2819,6 +3649,11 @@
       "path": "results/statistics_2026_10/changeover_report.csv",
       "bytes": 2342,
       "sha256": "0a33848677382ece60b1a78b7f10673fdec4ba32d7ea7c48f20892a04faf47a1"
+    },
+    {
+      "path": "results/statistics_2026_10/code/__pycache__/paper_stats.cpython-313.pyc",
+      "bytes": 27770,
+      "sha256": "ee868c54749bbf743dfe3ca402ae3e8daff9b4052d267dbed9a65602fd69e233"
     },
     {
       "path": "results/statistics_2026_10/code/changeover_report.py",

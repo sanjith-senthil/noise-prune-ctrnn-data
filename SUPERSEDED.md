@@ -16,8 +16,15 @@ Six strategies draw a Bernoulli mask and were therefore affected:
   - `simulation_noise_prune_shuffled_rescale`
   - `simulation_noise_prune_uniform_rescale`
 
-They were re-run over 10-80% at both network sizes. **The re-run is the data the
-paper reports**, and it is deposited under `results/renormalized_2026_10/`.
+All six were re-run over 10-80% at H=512. At H=1024 four were re-run -- the
+plain and capped rescales on both scores -- while the shuffled and uniform
+probability controls were not, because the size comparison does not use them.
+**The re-run is the data the paper reports**, and it is deposited under
+`results/renormalized_2026_10/`.
+
+The Lyapunov family (`noise_prune*`, called L-NP or V-NP in older tables) is
+affected by the identical defect and was NOT re-run. It is not reported in the
+revised paper. Treat any L-NP row anywhere in this deposit as pre-correction.
 
 Four strategies are deterministic and were NOT affected; their numbers are
 bit-identical before and after: `l1_unstructured`, `obs_compensated`,
@@ -40,9 +47,6 @@ instead; the remaining rows are unchanged and still valid.
 | `results/capped_rescale/capped_rescale_q10_to_q100_3seed_spectral_abscissa_summary.csv` | 40 | 80 |
 | `results/capped_rescale/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_lnp_snp_capped_rescale_q10_to_q90_3seed_curve_rows.csv` | 2592 | 5184 |
 | `results/capped_rescale/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_lnp_snp_capped_rescale_q10_to_q90_3seed_curve_summary.csv` | 36 | 72 |
-| `results/renormalized_2026_10/capq50_h512_p10_80.csv` | 1152 | 1176 |
-| `results/renormalized_2026_10/h1024_p10_80.csv` | 576 | 600 |
-| `results/renormalized_2026_10/h512_p10_80.csv` | 3456 | 3480 |
 | `results/revision_2026/covariance_ablation/reviewer1_controls_combined.csv` | 16 | 52 |
 | `results/revision_2026/covariance_ablation/reviewer1_controls_tests.csv` | 12 | 36 |
 | `results/revision_2026/covariance_ablation/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_covariance_ablation_full_p50_80_raw.csv` | 288 | 768 |
@@ -60,6 +64,10 @@ instead; the remaining rows are unchanged and still valid.
 | `results/revision_2026/score_controls_round2/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_raw.csv` | 64 | 320 |
 | `results/revision_2026/score_controls_round2/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_regression_check.csv` | 32 | 96 |
 | `results/revision_2026/score_controls_round2/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_summary_by_sparsity.csv` | 8 | 40 |
+| `results/revision_2026/sharded_suites/fig3_lowsparsity_h512_p10_40.csv` | 288 | 480 |
+| `results/revision_2026/sharded_suites/size_h1024_p10_40.csv` | 288 | 1464 |
+| `results/revision_2026/size_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_raw.csv` | 864 | 2016 |
+| `results/revision_2026/size_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_summary_by_sparsity.csv` | 12 | 36 |
 | `results/revision_2026/statistics/paper_relevant_h512_descriptive_statistics.csv` | 256 | 576 |
 | `results/revision_2026/statistics/per_task_retention_curves.csv` | 64 | 224 |
 | `results/statistics/paper_relevant_h512_descriptive_statistics.csv` | 256 | 576 |
@@ -86,7 +94,10 @@ rather than deleted. Read them as evidence about the OLD rule.
 
 ## Files removed
 
-  (none -- see the note above)
+  - `results/revision_2026/noise_necessity/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80_raw.csv`  (960 rows)
+  - `results/revision_2026/noise_necessity/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_necessity_p50_80_summary.csv`  (80 rows)
+  - `results/revision_2026/noise_only/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_only_p50_80_raw.csv`  (576 rows)
+  - `results/revision_2026/noise_only/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_noise_only_p50_80_summary_by_sparsity.csv`  (8 rows)
 
 These statistical outputs are superseded by the change of PROCEDURE, not only of
 data: the paper now reports a hierarchical bootstrap over tasks with an exact

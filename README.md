@@ -14,6 +14,14 @@ The deposited model data are the 24 selected H=512 CTRNN checkpoints:
 - checkpoint selection by validation sequence accuracy, with validation
   cross-entropy loss as the tie-break
 
+The code that produced everything here is in the companion repository:
+
+  https://github.com/sanjith-senthil/noise-prune-ctrnn-code
+
+To reproduce a result, clone that repository and symlink this deposit's
+`checkpoints/` directory at its root; every config loads checkpoints by a
+relative path. Licensed CC BY 4.0; see LICENSE.
+
 The deposit ships the trained networks for both hidden sizes: 24 at H=512 and 24
 at H=1024, plus the six dm1/anti controls. Every checkpoint any deposited suite
 loads is here, so each result can be regenerated from the code release.
