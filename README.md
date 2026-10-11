@@ -126,10 +126,16 @@ so they are directly comparable to the original figures.
 - `renormalized_2026_10/`: the re-run, one merged table per suite, with the
   configurations that produced them under `configs/`. Every run records
   `prune_prob_normalize_mode = bisect`.
-  - `h512_p10_80` all six sampling strategies, 10-80%, H=512 (3,480 runs)
-  - `h512_recap_p10_80` the two cap-dependent arms re-run at the recalibrated
-    constant 3.695 (1,152 runs). **These supersede the capped rows in
-    `h512_p10_80`, which used the earlier constant 3.8.**
+  - `h512_p10_80` the four sampling strategies that do not read the cap, 10-80%,
+    H=512 (2,328 rows), plus the 24 unpruned baselines
+  - `h512_recap_p10_80` the two cap-dependent arms at the recalibrated constant
+    3.695 (1,152 rows)
+
+  The two H=512 tables partition the sampling arms: no strategy appears in both,
+  and **every `run_id` in this directory appears exactly once**, so the tables can
+  be concatenated safely. The capped arms were first run at 3.8 and then re-run at
+  3.695 under the same `run_id`s; the superseded rows are not deposited, so there
+  is no way to pick up two caps by accident.
   - `h1024_p10_80` the plain rescale rule at H=1024 (600 runs)
   - `h1024_rest_p10_80` the other three sampling arms at H=1024 (1,728 runs)
   - `capq50_h512_p10_80` the quantile-cap measurement the recalibration rests on

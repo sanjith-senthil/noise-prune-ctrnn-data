@@ -7,8 +7,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8412,
-      "sha256": "92e7b0e19a92bd2d5c86de82aa864d21bda6bf4c01be97cd01be15ad27aa4043"
+      "bytes": 8746,
+      "sha256": "fd9be58b6cb52807b537b7aef57428a6b6771ffff21cc1a7a4cbd5384fa2b9d2"
     },
     {
       "path": "SUPERSEDED.md",
@@ -1912,8 +1912,8 @@
     },
     {
       "path": "results/renormalized_2026_10/h512_p10_80.csv",
-      "bytes": 48863924,
-      "sha256": "1fb09c43d97f27e82adf09afb6c296b09bc2747fbfcaa2bb9fa0999954b2bdb9"
+      "bytes": 32594413,
+      "sha256": "dc3a9c26f4991d1acb35f32105505d89c4ae209e193ae50f2883cac5808412f5"
     },
     {
       "path": "results/renormalized_2026_10/h512_recap_p10_80.csv",
