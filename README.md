@@ -123,11 +123,18 @@ so they are directly comparable to the original figures.
   components, leave-one-task-out), and per-task retention curves.
 - `configs/`: the suite configurations used, so every run above is reproducible from the
   code release.
-- `renormalized_2026_10/`: the re-run of all six sampling strategies across 10-80%
-  at H=512, the plain rescale rule at H=1024, and the quantile-cap measurement used
-  to recalibrate the constant amplification cap. One merged table per suite, with the
-  configurations that produced them under `configs/`. Every run here records
+- `renormalized_2026_10/`: the re-run, one merged table per suite, with the
+  configurations that produced them under `configs/`. Every run records
   `prune_prob_normalize_mode = bisect`.
+  - `h512_p10_80` all six sampling strategies, 10-80%, H=512 (3,480 runs)
+  - `h512_recap_p10_80` the two cap-dependent arms re-run at the recalibrated
+    constant 3.695 (1,152 runs). **These supersede the capped rows in
+    `h512_p10_80`, which used the earlier constant 3.8.**
+  - `h1024_p10_80` the plain rescale rule at H=1024 (600 runs)
+  - `h1024_rest_p10_80` the other three sampling arms at H=1024 (1,728 runs)
+  - `capq50_h512_p10_80` the quantile-cap measurement the recalibration rests on
+    (1,176 runs). The cap is the mean over 50-80% of each network's own median
+    amplification: 3.823 before the correction, 3.695 after.
 
 Per suite the deposit ships the **merged** raw rows and summaries rather than the eight
 per-task shards the runner writes; the shards are intermediates carrying ~290 raw columns

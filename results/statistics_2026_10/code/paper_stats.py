@@ -100,6 +100,14 @@ N_BOOT = 10_000
 SEED = 20261009
 GRID = (10, 20, 30, 40, 50, 60, 70, 80)
 OFFDIAG = 512 * 511          # off-diagonal recurrent entries at H = 512
+
+# The constant amplification cap, recalibrated from the corrected 1/p
+# distribution as the mean q50 over 50-80% -- the same construction that
+# produced the published 3.8 from the old distribution, which measured 3.823.
+CAP_CONSTANT = 3.695
+# what the capped arms were run at BEFORE the recalibration; the legacy cube
+# has to ask for that value or it finds nothing
+LEGACY_CAP_CONSTANT = 3.8
 AUC_LO, AUC_HI = 10, 80
 
 trapezoid = getattr(np, "trapezoid", None) or np.trapz
@@ -109,11 +117,11 @@ trapezoid = getattr(np, "trapezoid", None) or np.trapz
 ARMS = {
     # cap_value pins the constant-factor arm the paper reports; see select()
     "noise-prune + capped rescale":  dict(strategy="simulation_noise_prune_capped_rescale",
-                                          cap="fixed", cap_value=3.8),
+                                          cap="fixed", cap_value=CAP_CONSTANT),
     "noise-prune + rescale":         dict(strategy="simulation_noise_prune_rescale"),
     "noise-prune score only":        dict(strategy="simulation_noise_prune_mask_only"),
     "magnitude + capped rescale":    dict(strategy="simulation_noise_prune_capped_magnitude_rescale",
-                                          cap="fixed", cap_value=3.8),
+                                          cap="fixed", cap_value=CAP_CONSTANT),
     "magnitude + rescale":           dict(strategy="simulation_noise_prune_magnitude_rescale"),
     "magnitude":                     dict(strategy="l1_unstructured"),
     "OBS":                           dict(strategy="obs_compensated"),
@@ -178,6 +186,17 @@ SOURCE_SET = "renorm"         # the re-run suite is complete as of 2026-10-10
 RENORM_SOURCES = [
     "results/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_renorm_p10_80/*.csv",
 ]
+
+# The constant amplification cap was recalibrated from the corrected 1/p
+# distribution: the mean q50 over 50-80%, measured the same way the published
+# 3.8 was, came out at 3.695. The two cap-dependent arms were therefore re-run
+# at the new constant and come from here instead. The other four sampling arms
+# do not depend on the cap and would reproduce byte for byte, so they were not
+# re-run and still come from RENORM_SOURCES.
+RECAP_SOURCES = [
+    "results/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_renorm_recap_p10_80/*.csv",
+]
+CAPPED_ARMS = frozenset({"noise-prune + capped rescale", "magnitude + capped rescale"})
 
 # Every H=512 source the analysis draws on, named explicitly. The results tree
 # holds 18 tasks and many exploratory suites; globbing it would silently pull in
@@ -299,15 +318,23 @@ def build_cube(arms: dict | None = None, grid=GRID, source_set: str | None = Non
         raise ValueError(f"source_set must be 'legacy' or 'renorm', got {source_set!r}")
     d = load_runs(grid)
     d_renorm = load_runs(grid, RENORM_SOURCES) if source_set == "renorm" else None
+    d_recap = load_runs(grid, RECAP_SOURCES) if source_set == "renorm" else None
 
     cells = {}
     for name, spec in arms.items():
-        pool = d_renorm if (source_set == "renorm" and name in SAMPLING_ARMS) else d
+        if source_set == "renorm" and name in CAPPED_ARMS:
+            pool = d_recap
+        elif source_set == "renorm" and name in SAMPLING_ARMS:
+            pool = d_renorm
+        else:
+            pool = d
+        if pool is d and name in CAPPED_ARMS:
+            spec = {**spec, "cap_value": LEGACY_CAP_CONSTANT}
         s = select(pool, **spec)
         if s.empty:
             raise ValueError(
                 f"arm {name!r} selected no rows from the "
-                f"{'renorm' if pool is d_renorm else 'legacy'} pool")
+                f"{'recap' if pool is d_recap else 'renorm' if pool is d_renorm else 'legacy'} pool")
         g = s.groupby(["task_short", "source_network_seed", "pct"])
         cells[name] = pd.DataFrame({"ret": g.ret.mean(), "n": g.size()})
 

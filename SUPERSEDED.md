@@ -40,7 +40,7 @@ instead; the remaining rows are unchanged and still valid.
 | `results/capped_rescale/capped_rescale_q10_to_q100_3seed_spectral_abscissa_summary.csv` | 40 | 80 |
 | `results/capped_rescale/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_lnp_snp_capped_rescale_q10_to_q90_3seed_curve_rows.csv` | 2592 | 5184 |
 | `results/capped_rescale/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_lnp_snp_capped_rescale_q10_to_q90_3seed_curve_summary.csv` | 36 | 72 |
-| `results/renormalized_2026_10/capq50_h512_p10_80.csv` | 441 | 451 |
+| `results/renormalized_2026_10/capq50_h512_p10_80.csv` | 1152 | 1176 |
 | `results/renormalized_2026_10/h1024_p10_80.csv` | 576 | 600 |
 | `results/renormalized_2026_10/h512_p10_80.csv` | 3456 | 3480 |
 | `results/revision_2026/covariance_ablation/reviewer1_controls_combined.csv` | 16 | 52 |

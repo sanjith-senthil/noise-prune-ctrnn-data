@@ -1,12 +1,12 @@
 task,method,sparsity,retention
-ctxdlydm1intseq,noise-prune + capped rescale,10,1.000116341541392
-ctxdlydm1intseq,noise-prune + capped rescale,20,1.0004157085632888
-ctxdlydm1intseq,noise-prune + capped rescale,30,1.0021368871447418
-ctxdlydm1intseq,noise-prune + capped rescale,40,0.9952118842321876
-ctxdlydm1intseq,noise-prune + capped rescale,50,0.9529845070006182
-ctxdlydm1intseq,noise-prune + capped rescale,60,0.8375337417899139
-ctxdlydm1intseq,noise-prune + capped rescale,70,0.5902814072918771
-ctxdlydm1intseq,noise-prune + capped rescale,80,0.29441224336692723
+ctxdlydm1intseq,noise-prune + capped rescale,10,1.000163192284443
+ctxdlydm1intseq,noise-prune + capped rescale,20,1.0005264456936513
+ctxdlydm1intseq,noise-prune + capped rescale,30,1.0024451224119926
+ctxdlydm1intseq,noise-prune + capped rescale,40,0.9958025555731438
+ctxdlydm1intseq,noise-prune + capped rescale,50,0.9540734964066635
+ctxdlydm1intseq,noise-prune + capped rescale,60,0.8397413208973292
+ctxdlydm1intseq,noise-prune + capped rescale,70,0.5915610632665472
+ctxdlydm1intseq,noise-prune + capped rescale,80,0.2925562937716544
 ctxdlydm1intseq,noise-prune + rescale,10,0.9992903754886672
 ctxdlydm1intseq,noise-prune + rescale,20,0.9970212843457618
 ctxdlydm1intseq,noise-prune + rescale,30,0.9942413421712185
@@ -23,14 +23,14 @@ ctxdlydm1intseq,noise-prune score only,50,0.8573973755077571
 ctxdlydm1intseq,noise-prune score only,60,0.5474379652934065
 ctxdlydm1intseq,noise-prune score only,70,0.24943177953218668
 ctxdlydm1intseq,noise-prune score only,80,0.11979892802985655
-ctxdlydm1intseq,magnitude + capped rescale,10,0.9991657263793821
-ctxdlydm1intseq,magnitude + capped rescale,20,1.0012278946672974
-ctxdlydm1intseq,magnitude + capped rescale,30,0.9932875735827641
-ctxdlydm1intseq,magnitude + capped rescale,40,0.9707845185629327
-ctxdlydm1intseq,magnitude + capped rescale,50,0.894075666839481
-ctxdlydm1intseq,magnitude + capped rescale,60,0.7437597512265711
-ctxdlydm1intseq,magnitude + capped rescale,70,0.4895623342674371
-ctxdlydm1intseq,magnitude + capped rescale,80,0.21088682173960138
+ctxdlydm1intseq,magnitude + capped rescale,10,0.9991812469160145
+ctxdlydm1intseq,magnitude + capped rescale,20,1.0012069109974193
+ctxdlydm1intseq,magnitude + capped rescale,30,0.9932794994562165
+ctxdlydm1intseq,magnitude + capped rescale,40,0.9706583031074348
+ctxdlydm1intseq,magnitude + capped rescale,50,0.8935695683378664
+ctxdlydm1intseq,magnitude + capped rescale,60,0.7433610745243368
+ctxdlydm1intseq,magnitude + capped rescale,70,0.4877508885661221
+ctxdlydm1intseq,magnitude + capped rescale,80,0.20758468782427741
 ctxdlydm1intseq,magnitude + rescale,10,0.99891907244217
 ctxdlydm1intseq,magnitude + rescale,20,1.0004354611644248
 ctxdlydm1intseq,magnitude + rescale,30,0.9921065707825822
@@ -63,14 +63,14 @@ ctxdlydm1intseq,random,50,0.08253494067088434
 ctxdlydm1intseq,random,60,0.10542756150692849
 ctxdlydm1intseq,random,70,0.10550007544767225
 ctxdlydm1intseq,random,80,0.07051947387890357
-ctxdlydm2intseq,noise-prune + capped rescale,10,0.9992754241873926
-ctxdlydm2intseq,noise-prune + capped rescale,20,0.995363654669637
-ctxdlydm2intseq,noise-prune + capped rescale,30,0.9854336049043478
-ctxdlydm2intseq,noise-prune + capped rescale,40,0.963290719518525
-ctxdlydm2intseq,noise-prune + capped rescale,50,0.9185706271095394
-ctxdlydm2intseq,noise-prune + capped rescale,60,0.785111150542838
-ctxdlydm2intseq,noise-prune + capped rescale,70,0.5013199604673607
-ctxdlydm2intseq,noise-prune + capped rescale,80,0.25373754181999875
+ctxdlydm2intseq,noise-prune + capped rescale,10,0.9992616330191519
+ctxdlydm2intseq,noise-prune + capped rescale,20,0.9952974601177909
+ctxdlydm2intseq,noise-prune + capped rescale,30,0.9853389539635597
+ctxdlydm2intseq,noise-prune + capped rescale,40,0.9634374528812101
+ctxdlydm2intseq,noise-prune + capped rescale,50,0.9188944694018892
+ctxdlydm2intseq,noise-prune + capped rescale,60,0.7859393370378099
+ctxdlydm2intseq,noise-prune + capped rescale,70,0.5022166294484337
+ctxdlydm2intseq,noise-prune + capped rescale,80,0.252150764015965
 ctxdlydm2intseq,noise-prune + rescale,10,0.9993107459527821
 ctxdlydm2intseq,noise-prune + rescale,20,0.9956980844375728
 ctxdlydm2intseq,noise-prune + rescale,30,0.9851387378001593
@@ -87,14 +87,14 @@ ctxdlydm2intseq,noise-prune score only,50,0.7309088928827593
 ctxdlydm2intseq,noise-prune score only,60,0.42087418806991833
 ctxdlydm2intseq,noise-prune score only,70,0.2075280406780259
 ctxdlydm2intseq,noise-prune score only,80,0.11549490258191057
-ctxdlydm2intseq,magnitude + capped rescale,10,0.998914569214752
-ctxdlydm2intseq,magnitude + capped rescale,20,0.9959134474361306
-ctxdlydm2intseq,magnitude + capped rescale,30,0.9833944586417211
-ctxdlydm2intseq,magnitude + capped rescale,40,0.9636677253601809
-ctxdlydm2intseq,magnitude + capped rescale,50,0.9013136702631144
-ctxdlydm2intseq,magnitude + capped rescale,60,0.7372897999441369
-ctxdlydm2intseq,magnitude + capped rescale,70,0.4377076339314126
-ctxdlydm2intseq,magnitude + capped rescale,80,0.2056143678872361
+ctxdlydm2intseq,magnitude + capped rescale,10,0.9989062782316077
+ctxdlydm2intseq,magnitude + capped rescale,20,0.9959174805843053
+ctxdlydm2intseq,magnitude + capped rescale,30,0.9833764300222065
+ctxdlydm2intseq,magnitude + capped rescale,40,0.9636598843334342
+ctxdlydm2intseq,magnitude + capped rescale,50,0.9012634006728425
+ctxdlydm2intseq,magnitude + capped rescale,60,0.7366310155393506
+ctxdlydm2intseq,magnitude + capped rescale,70,0.43639916194903033
+ctxdlydm2intseq,magnitude + capped rescale,80,0.20306585277364753
 ctxdlydm2intseq,magnitude + rescale,10,0.9989198390909076
 ctxdlydm2intseq,magnitude + rescale,20,0.9958451540180889
 ctxdlydm2intseq,magnitude + rescale,30,0.9828833261987593
@@ -127,14 +127,14 @@ ctxdlydm2intseq,random,50,0.07955152715639947
 ctxdlydm2intseq,random,60,0.1004751549982514
 ctxdlydm2intseq,random,70,0.10191827406415953
 ctxdlydm2intseq,random,80,0.06915200378788124
-dlydm1intseq,noise-prune + capped rescale,10,1.0000608020689468
-dlydm1intseq,noise-prune + capped rescale,20,0.9957534108716279
-dlydm1intseq,noise-prune + capped rescale,30,0.9950535173635556
-dlydm1intseq,noise-prune + capped rescale,40,0.9921469493560614
-dlydm1intseq,noise-prune + capped rescale,50,0.9570107280099345
-dlydm1intseq,noise-prune + capped rescale,60,0.885875359920385
-dlydm1intseq,noise-prune + capped rescale,70,0.6520785080200967
-dlydm1intseq,noise-prune + capped rescale,80,0.2797417795354347
+dlydm1intseq,noise-prune + capped rescale,10,1.0000630220474556
+dlydm1intseq,noise-prune + capped rescale,20,0.9957404699288017
+dlydm1intseq,noise-prune + capped rescale,30,0.9949730050193675
+dlydm1intseq,noise-prune + capped rescale,40,0.9920163056135877
+dlydm1intseq,noise-prune + capped rescale,50,0.9569041276248891
+dlydm1intseq,noise-prune + capped rescale,60,0.886326081236564
+dlydm1intseq,noise-prune + capped rescale,70,0.6523405078306351
+dlydm1intseq,noise-prune + capped rescale,80,0.2767276237092398
 dlydm1intseq,noise-prune + rescale,10,1.0002126051380018
 dlydm1intseq,noise-prune + rescale,20,0.9966186424076539
 dlydm1intseq,noise-prune + rescale,30,0.9960495812507517
@@ -151,14 +151,14 @@ dlydm1intseq,noise-prune score only,50,0.8447598372690548
 dlydm1intseq,noise-prune score only,60,0.5126616375835321
 dlydm1intseq,noise-prune score only,70,0.21255652754811738
 dlydm1intseq,noise-prune score only,80,0.10587001268743308
-dlydm1intseq,magnitude + capped rescale,10,0.9991799086207259
-dlydm1intseq,magnitude + capped rescale,20,0.9968582700675549
-dlydm1intseq,magnitude + capped rescale,30,0.9977758535155675
-dlydm1intseq,magnitude + capped rescale,40,0.9844782851255137
-dlydm1intseq,magnitude + capped rescale,50,0.9479268539312206
-dlydm1intseq,magnitude + capped rescale,60,0.8342942818760042
-dlydm1intseq,magnitude + capped rescale,70,0.5327155310951764
-dlydm1intseq,magnitude + capped rescale,80,0.22270387386914695
+dlydm1intseq,magnitude + capped rescale,10,0.9991871687021439
+dlydm1intseq,magnitude + capped rescale,20,0.9969184162720638
+dlydm1intseq,magnitude + capped rescale,30,0.9978104473256336
+dlydm1intseq,magnitude + capped rescale,40,0.9845307928947622
+dlydm1intseq,magnitude + capped rescale,50,0.9476294281093307
+dlydm1intseq,magnitude + capped rescale,60,0.8334127986492711
+dlydm1intseq,magnitude + capped rescale,70,0.53055871613321
+dlydm1intseq,magnitude + capped rescale,80,0.21953118091768184
 dlydm1intseq,magnitude + rescale,10,0.9991822256236773
 dlydm1intseq,magnitude + rescale,20,0.9963651813379782
 dlydm1intseq,magnitude + rescale,30,0.9963958170144308
@@ -191,14 +191,14 @@ dlydm1intseq,random,50,0.07082503757622423
 dlydm1intseq,random,60,0.08935143400463587
 dlydm1intseq,random,70,0.10242815482533381
 dlydm1intseq,random,80,0.07251108157943244
-dlydm2intseq,noise-prune + capped rescale,10,0.9984470794480691
-dlydm2intseq,noise-prune + capped rescale,20,0.9988332150292946
-dlydm2intseq,noise-prune + capped rescale,30,0.9962364095247311
-dlydm2intseq,noise-prune + capped rescale,40,0.9734850491296202
-dlydm2intseq,noise-prune + capped rescale,50,0.9659078268005595
-dlydm2intseq,noise-prune + capped rescale,60,0.9350488570732214
-dlydm2intseq,noise-prune + capped rescale,70,0.7308129705299539
-dlydm2intseq,noise-prune + capped rescale,80,0.3330846560606282
+dlydm2intseq,noise-prune + capped rescale,10,0.9984082561325364
+dlydm2intseq,noise-prune + capped rescale,20,0.9986548512323461
+dlydm2intseq,noise-prune + capped rescale,30,0.9958805388530926
+dlydm2intseq,noise-prune + capped rescale,40,0.9728585245329594
+dlydm2intseq,noise-prune + capped rescale,50,0.9654470408310193
+dlydm2intseq,noise-prune + capped rescale,60,0.935707760172094
+dlydm2intseq,noise-prune + capped rescale,70,0.7312448891563443
+dlydm2intseq,noise-prune + capped rescale,80,0.32951344139863753
 dlydm2intseq,noise-prune + rescale,10,0.9995226723983547
 dlydm2intseq,noise-prune + rescale,20,1.002368846936944
 dlydm2intseq,noise-prune + rescale,30,1.002194817238195
@@ -215,14 +215,14 @@ dlydm2intseq,noise-prune score only,50,0.9169800691882551
 dlydm2intseq,noise-prune score only,60,0.6047889972157781
 dlydm2intseq,noise-prune score only,70,0.27255454670492735
 dlydm2intseq,noise-prune score only,80,0.13248021198395923
-dlydm2intseq,magnitude + capped rescale,10,0.9997570781406147
-dlydm2intseq,magnitude + capped rescale,20,1.00341775977491
-dlydm2intseq,magnitude + capped rescale,30,0.9940533195614405
-dlydm2intseq,magnitude + capped rescale,40,0.9910148404073519
-dlydm2intseq,magnitude + capped rescale,50,0.9743280711148672
-dlydm2intseq,magnitude + capped rescale,60,0.8968340475950548
-dlydm2intseq,magnitude + capped rescale,70,0.5842294822190516
-dlydm2intseq,magnitude + capped rescale,80,0.25940821594794133
+dlydm2intseq,magnitude + capped rescale,10,0.9997761163425194
+dlydm2intseq,magnitude + capped rescale,20,1.0034746876076994
+dlydm2intseq,magnitude + capped rescale,30,0.9942043659701042
+dlydm2intseq,magnitude + capped rescale,40,0.9912887208431412
+dlydm2intseq,magnitude + capped rescale,50,0.9747179721962834
+dlydm2intseq,magnitude + capped rescale,60,0.8971793405156866
+dlydm2intseq,magnitude + capped rescale,70,0.582024250867024
+dlydm2intseq,magnitude + capped rescale,80,0.2543198261221629
 dlydm2intseq,magnitude + rescale,10,0.9999304454034115
 dlydm2intseq,magnitude + rescale,20,1.0026349626083013
 dlydm2intseq,magnitude + rescale,30,0.9912029546922598
@@ -255,14 +255,14 @@ dlydm2intseq,random,50,0.09022829668437297
 dlydm2intseq,random,60,0.11110282360873269
 dlydm2intseq,random,70,0.11464919709107495
 dlydm2intseq,random,80,0.08253184794367961
-dm1seqr,noise-prune + capped rescale,10,1.0000393896297382
-dm1seqr,noise-prune + capped rescale,20,0.9987875862393342
-dm1seqr,noise-prune + capped rescale,30,0.9976147917677598
-dm1seqr,noise-prune + capped rescale,40,0.9964865601263154
-dm1seqr,noise-prune + capped rescale,50,0.99446231763328
-dm1seqr,noise-prune + capped rescale,60,0.98785377239496
-dm1seqr,noise-prune + capped rescale,70,0.9740074177302018
-dm1seqr,noise-prune + capped rescale,80,0.9101047951637159
+dm1seqr,noise-prune + capped rescale,10,1.0000550948244689
+dm1seqr,noise-prune + capped rescale,20,0.9987884037146079
+dm1seqr,noise-prune + capped rescale,30,0.9975894468004896
+dm1seqr,noise-prune + capped rescale,40,0.9963931935069429
+dm1seqr,noise-prune + capped rescale,50,0.9942710083431064
+dm1seqr,noise-prune + capped rescale,60,0.9875952558083507
+dm1seqr,noise-prune + capped rescale,70,0.9731391874842972
+dm1seqr,noise-prune + capped rescale,80,0.9042134689894813
 dm1seqr,noise-prune + rescale,10,0.9999889285839542
 dm1seqr,noise-prune + rescale,20,0.9988748286762039
 dm1seqr,noise-prune + rescale,30,0.998265891990436
@@ -279,14 +279,14 @@ dm1seqr,noise-prune score only,50,0.9407437372520074
 dm1seqr,noise-prune score only,60,0.8639247339780315
 dm1seqr,noise-prune score only,70,0.6649235742237329
 dm1seqr,noise-prune score only,80,0.32606249774134893
-dm1seqr,magnitude + capped rescale,10,0.999858397641241
-dm1seqr,magnitude + capped rescale,20,0.9993491643986253
-dm1seqr,magnitude + capped rescale,30,0.9988526764458244
-dm1seqr,magnitude + capped rescale,40,0.9969168633925557
-dm1seqr,magnitude + capped rescale,50,0.9942438057893247
-dm1seqr,magnitude + capped rescale,60,0.9875598284714275
-dm1seqr,magnitude + capped rescale,70,0.9638863092061759
-dm1seqr,magnitude + capped rescale,80,0.8475572041108576
+dm1seqr,magnitude + capped rescale,10,0.9998653574589911
+dm1seqr,magnitude + capped rescale,20,0.9993616554357332
+dm1seqr,magnitude + capped rescale,30,0.998859386813681
+dm1seqr,magnitude + capped rescale,40,0.9969546273752119
+dm1seqr,magnitude + capped rescale,50,0.9942564842096339
+dm1seqr,magnitude + capped rescale,60,0.9873695521630522
+dm1seqr,magnitude + capped rescale,70,0.9625875337160519
+dm1seqr,magnitude + capped rescale,80,0.8362037603713395
 dm1seqr,magnitude + rescale,10,0.9998091662723522
 dm1seqr,magnitude + rescale,20,0.9991711185302838
 dm1seqr,magnitude + rescale,30,0.9988232072808533
@@ -319,14 +319,14 @@ dm1seqr,random,50,0.023900422847801042
 dm1seqr,random,60,0.013941243328836929
 dm1seqr,random,70,0.010011371235399703
 dm1seqr,random,80,0.00901844098819612
-dm2seql,noise-prune + capped rescale,10,1.0001459003027946
-dm2seql,noise-prune + capped rescale,20,1.0006643761890988
-dm2seql,noise-prune + capped rescale,30,1.001506575288242
-dm2seql,noise-prune + capped rescale,40,0.9989758816533524
-dm2seql,noise-prune + capped rescale,50,0.9970248346382355
-dm2seql,noise-prune + capped rescale,60,0.9897931403737963
-dm2seql,noise-prune + capped rescale,70,0.9751370617948685
-dm2seql,noise-prune + capped rescale,80,0.8785882047129349
+dm2seql,noise-prune + capped rescale,10,1.0001679502872256
+dm2seql,noise-prune + capped rescale,20,1.0006975843285215
+dm2seql,noise-prune + capped rescale,30,1.0016216625165344
+dm2seql,noise-prune + capped rescale,40,0.9991509852022945
+dm2seql,noise-prune + capped rescale,50,0.9972083365946728
+dm2seql,noise-prune + capped rescale,60,0.989988895350348
+dm2seql,noise-prune + capped rescale,70,0.9745898020093668
+dm2seql,noise-prune + capped rescale,80,0.8699467188142126
 dm2seql,noise-prune + rescale,10,0.999872686870373
 dm2seql,noise-prune + rescale,20,0.9994499922355954
 dm2seql,noise-prune + rescale,30,0.9991553549441639
@@ -343,14 +343,14 @@ dm2seql,noise-prune score only,50,0.948176264938558
 dm2seql,noise-prune score only,60,0.812230739263018
 dm2seql,noise-prune score only,70,0.5592015100204267
 dm2seql,noise-prune score only,80,0.2693280576445081
-dm2seql,magnitude + capped rescale,10,0.9998957880918443
-dm2seql,magnitude + capped rescale,20,0.9991118911347875
-dm2seql,magnitude + capped rescale,30,0.9976393920664696
-dm2seql,magnitude + capped rescale,40,0.9954786709782634
-dm2seql,magnitude + capped rescale,50,0.985956603002716
-dm2seql,magnitude + capped rescale,60,0.9790603224283428
-dm2seql,magnitude + capped rescale,70,0.9461538578203296
-dm2seql,magnitude + capped rescale,80,0.806218438936309
+dm2seql,magnitude + capped rescale,10,0.9998960776870924
+dm2seql,magnitude + capped rescale,20,0.9991001777913961
+dm2seql,magnitude + capped rescale,30,0.9976070283358173
+dm2seql,magnitude + capped rescale,40,0.9953766815676618
+dm2seql,magnitude + capped rescale,50,0.9856805638305729
+dm2seql,magnitude + capped rescale,60,0.978318180654053
+dm2seql,magnitude + capped rescale,70,0.9439768288325427
+dm2seql,magnitude + capped rescale,80,0.7934071801715077
 dm2seql,magnitude + rescale,10,0.99989312521214
 dm2seql,magnitude + rescale,20,0.9990387292010534
 dm2seql,magnitude + rescale,30,0.9975680357666454
@@ -383,14 +383,14 @@ dm2seql,random,50,0.021954745141825754
 dm2seql,random,60,0.0116512249341048
 dm2seql,random,70,0.008120634474744877
 dm2seql,random,80,0.008110556280859204
-dmsintseq,noise-prune + capped rescale,10,0.9997822075340377
-dmsintseq,noise-prune + capped rescale,20,0.9988793753073505
-dmsintseq,noise-prune + capped rescale,30,0.9973708104894162
-dmsintseq,noise-prune + capped rescale,40,0.9929566783740214
-dmsintseq,noise-prune + capped rescale,50,0.9495746769117767
-dmsintseq,noise-prune + capped rescale,60,0.8188483976654938
-dmsintseq,noise-prune + capped rescale,70,0.4346092199714504
-dmsintseq,noise-prune + capped rescale,80,0.14967419616536792
+dmsintseq,noise-prune + capped rescale,10,0.9997846386547012
+dmsintseq,noise-prune + capped rescale,20,0.9988796087869506
+dmsintseq,noise-prune + capped rescale,30,0.9974893559249686
+dmsintseq,noise-prune + capped rescale,40,0.9935794412878499
+dmsintseq,noise-prune + capped rescale,50,0.9514819755765048
+dmsintseq,noise-prune + capped rescale,60,0.8248898385455335
+dmsintseq,noise-prune + capped rescale,70,0.440327108736495
+dmsintseq,noise-prune + capped rescale,80,0.14085521403994752
 dmsintseq,noise-prune + rescale,10,0.9999564127184662
 dmsintseq,noise-prune + rescale,20,0.9988655536955302
 dmsintseq,noise-prune + rescale,30,0.9944230545377318
@@ -407,14 +407,14 @@ dmsintseq,noise-prune score only,50,0.9040874980405539
 dmsintseq,noise-prune score only,60,0.3301416837822106
 dmsintseq,noise-prune score only,70,0.004260146834078499
 dmsintseq,noise-prune score only,80,4.587915103905486e-05
-dmsintseq,magnitude + capped rescale,10,0.9996718312522169
-dmsintseq,magnitude + capped rescale,20,0.9988590346671238
-dmsintseq,magnitude + capped rescale,30,0.9964129313231238
-dmsintseq,magnitude + capped rescale,40,0.9733191162289634
-dmsintseq,magnitude + capped rescale,50,0.8982315051508443
-dmsintseq,magnitude + capped rescale,60,0.6767895615780529
-dmsintseq,magnitude + capped rescale,70,0.36818364794365904
-dmsintseq,magnitude + capped rescale,80,0.12142101410585783
+dmsintseq,magnitude + capped rescale,10,0.9996724375103793
+dmsintseq,magnitude + capped rescale,20,0.9988282925878248
+dmsintseq,magnitude + capped rescale,30,0.9964765620797293
+dmsintseq,magnitude + capped rescale,40,0.9732687171002055
+dmsintseq,magnitude + capped rescale,50,0.898061271753491
+dmsintseq,magnitude + capped rescale,60,0.677676912793971
+dmsintseq,magnitude + capped rescale,70,0.36805064550271255
+dmsintseq,magnitude + capped rescale,80,0.11423984816404971
 dmsintseq,magnitude + rescale,10,0.9998462367574072
 dmsintseq,magnitude + rescale,20,0.998696670606828
 dmsintseq,magnitude + rescale,30,0.995081598272663
@@ -447,14 +447,14 @@ dmsintseq,random,50,0.0
 dmsintseq,random,60,0.0024701846026837413
 dmsintseq,random,70,0.07174894262484922
 dmsintseq,random,80,0.10746375684983456
-multidlydmintseq,noise-prune + capped rescale,10,0.9999250784583241
-multidlydmintseq,noise-prune + capped rescale,20,1.0002328457288143
-multidlydmintseq,noise-prune + capped rescale,30,1.0002424385116389
-multidlydmintseq,noise-prune + capped rescale,40,0.98634167101258
-multidlydmintseq,noise-prune + capped rescale,50,0.9511460984704594
-multidlydmintseq,noise-prune + capped rescale,60,0.8429779064863717
-multidlydmintseq,noise-prune + capped rescale,70,0.6091372537777476
-multidlydmintseq,noise-prune + capped rescale,80,0.2928795693109385
+multidlydmintseq,noise-prune + capped rescale,10,0.9999616501996345
+multidlydmintseq,noise-prune + capped rescale,20,1.000356446985631
+multidlydmintseq,noise-prune + capped rescale,30,1.0004957105113244
+multidlydmintseq,noise-prune + capped rescale,40,0.9869459489249914
+multidlydmintseq,noise-prune + capped rescale,50,0.9520663447670974
+multidlydmintseq,noise-prune + capped rescale,60,0.8449485898594838
+multidlydmintseq,noise-prune + capped rescale,70,0.6104227730124704
+multidlydmintseq,noise-prune + capped rescale,80,0.2904571828828802
 multidlydmintseq,noise-prune + rescale,10,0.9993590530678484
 multidlydmintseq,noise-prune + rescale,20,0.997785950235636
 multidlydmintseq,noise-prune + rescale,30,0.9946195931498476
@@ -471,14 +471,14 @@ multidlydmintseq,noise-prune score only,50,0.8583128554455771
 multidlydmintseq,noise-prune score only,60,0.5626958986389442
 multidlydmintseq,noise-prune score only,70,0.2508523704557723
 multidlydmintseq,noise-prune score only,80,0.10592122772360063
-multidlydmintseq,magnitude + capped rescale,10,0.9999457727348204
-multidlydmintseq,magnitude + capped rescale,20,0.9964518502672658
-multidlydmintseq,magnitude + capped rescale,30,0.9934650959557336
-multidlydmintseq,magnitude + capped rescale,40,0.9579576056119811
-multidlydmintseq,magnitude + capped rescale,50,0.8875054183564822
-multidlydmintseq,magnitude + capped rescale,60,0.7674551034617535
-multidlydmintseq,magnitude + capped rescale,70,0.49121443236330015
-multidlydmintseq,magnitude + capped rescale,80,0.22207405326250196
+multidlydmintseq,magnitude + capped rescale,10,0.9999421633171842
+multidlydmintseq,magnitude + capped rescale,20,0.9964004205413385
+multidlydmintseq,magnitude + capped rescale,30,0.9934344307304871
+multidlydmintseq,magnitude + capped rescale,40,0.9579087594798156
+multidlydmintseq,magnitude + capped rescale,50,0.887168935252315
+multidlydmintseq,magnitude + capped rescale,60,0.766685274697379
+multidlydmintseq,magnitude + capped rescale,70,0.49002601627298104
+multidlydmintseq,magnitude + capped rescale,80,0.2196249779049582
 multidlydmintseq,magnitude + rescale,10,1.0002458123949676
 multidlydmintseq,magnitude + rescale,20,0.996634326325852
 multidlydmintseq,magnitude + rescale,30,0.9940934218182061
