@@ -165,7 +165,14 @@ def main() -> None:
         ("magnitude score", base[base.strategy == "simulation_noise_prune_magnitude_rescale"],
          gain([mag, sc], "l1_unstructured_gain", "match_l1"),
          gain([mag, sc], "l1_unstructured_gain", "inv_density")),
-        ("random mask", None,
+        # The sampled counterpart of a random mask is uniform-p: the
+        # sample-and-rescale machinery with every probability set to the target
+        # density, which IS a uniform random draw at that density rescaled by
+        # 1/density. Measured, the two agree to 0.010 at every sparsity. So the
+        # random row is not missing its reference -- it has one, and the
+        # comparison is the sharpest statement of the mechanism: sampling buys
+        # nothing once the probabilities carry no information.
+        ("random mask", base[base.strategy == "simulation_noise_prune_uniform_rescale"],
          gain([rg], "random_unstructured_gain", "match_l1"),
          gain([rg, sc], "random_unstructured_gain", "inv_density")),
     ]
@@ -197,8 +204,8 @@ def main() -> None:
     T6 = pd.DataFrame(rows)
     print("\n" + "=" * 150)
     print("TABLE 6  A global factor against per-connection sample-and-rescale, WITHIN each mask")
-    print("  the random mask has no sampled counterpart: sampling IS the informative mask, and a random mask sampled at")
-    print("  uniform probability is the uniform-p control, which appears in Table 8 of the main statistics instead")
+    print("  'sample-and-rescale' is that mask's own sampled arm; for the random mask it is uniform-p, which is a")
+    print("  uniform random draw at the target density rescaled by 1/density -- the two agree to 0.010 at every sparsity")
     print("  NOTE the sign: a global factor LIFTS the unbiased random mask and destroys both score-selected masks")
     print("=" * 150)
     print(T6.to_string(index=False))
@@ -228,6 +235,7 @@ def main() -> None:
     # here and silently produced NaN for the three deterministic arms.
     from paper_stats import ARMS as PAPER_ARMS, build_cube as paper_cube
     pc = paper_cube()
+    psur = make_surrogates(pc, n_boot=N_BOOT)
     ptl = pc.task_level()
     NAME = {"noise-prune + capped": "noise-prune + capped rescale",
             "noise-prune + rescale": "noise-prune + rescale",
@@ -239,6 +247,44 @@ def main() -> None:
         rows.append(dict(task="8 retained tasks (pooled)", sparsity=f"{pct}%",
                          **{k: round(float(v), 4) for k, v in rt.loc[pct].items()},
                          spread=round(float(rt.loc[pct].max() - rt.loc[pct].min()), 4)))
+    # EFFECT SIZES. The spread is descriptive; the claim is that the methods do
+    # not separate, so it needs the headline contrast with an interval. On the
+    # retained tasks the resampling unit is the 8 tasks, as everywhere else. On
+    # dm1 and anti there is only ONE task per row, so the hierarchy degenerates
+    # and the unit is that task's 3 network seeds -- a coarser interval, stated
+    # rather than hidden, and not comparable in width to the retained-task rows.
+    def _boot_diff(a, b, n_boot=N_BOOT, seed=20261009):
+        m = a.to_frame("a").join(b.to_frame("b"), how="inner").dropna()
+        dif = (m.a - m.b).to_numpy(float)
+        rng = np.random.default_rng(seed)
+        idx = rng.integers(0, len(dif), size=(n_boot, len(dif)))
+        draws = dif[idx].mean(axis=1)
+        return dif.mean(), np.percentile(draws, [2.5, 97.5]), int((dif > 0).sum()), len(dif)
+
+    eff = []
+    for task in sorted(ex.t.unique()):
+        sub = ex[ex.t == task]
+        cell = {lab: sub[sub.strategy == st].groupby(["pct", "source_network_seed"]).ret.mean()
+                for lab, st in ARMS5.items()}
+        for pct in sorted({i[0] for i in cell["random"].index}):
+            a = cell["noise-prune + capped"].loc[pct]
+            b = cell["random"].loc[pct]
+            e, ci, pos, n = _boot_diff(a, b)
+            eff.append(dict(task=task, sparsity=f"{pct}%", unit="3 network seeds",
+                            effect=round(float(e), 4),
+                            CI95=f"[{ci[0]:+.3f}, {ci[1]:+.3f}]", favouring=f"{pos}/{n}"))
+    for qi, q in enumerate(pc.qs):
+        a = ptl[:, pc.m("noise-prune + capped rescale"), qi]
+        b = ptl[:, pc.m("random"), qi]
+        c = contrast(pc, psur, "noise-prune + capped rescale", "random", q=int(q))
+        eff.append(dict(task="8 retained tasks (pooled)", sparsity=f"{int(q)}%",
+                        unit="8 tasks",
+                        effect=round(c["effect"], 4),
+                        CI95=f"[{c['lo95']:+.3f}, {c['hi95']:+.3f}]",
+                        favouring=f"{c['n_positive']}/{c['n_tasks']}"))
+    T7e = pd.DataFrame(eff)
+    out["control_table7b_excluded_tasks_effects"] = T7e
+
     T7 = pd.DataFrame(rows)
     print("\n" + "=" * 140)
     print("TABLE 7  Why dm1 and anti are excluded: the methods stop separating on them")

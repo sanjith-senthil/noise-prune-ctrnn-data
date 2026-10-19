@@ -1,0 +1,25 @@
+task,sparsity,unit,effect,CI95,favouring
+anti,10%,3 network seeds,0.0,"[+0.000, +0.000]",0/3
+anti,20%,3 network seeds,0.0,"[+0.000, +0.000]",0/3
+anti,30%,3 network seeds,0.0,"[+0.000, +0.000]",0/3
+anti,40%,3 network seeds,0.0,"[+0.000, +0.000]",0/3
+anti,50%,3 network seeds,0.0,"[+0.000, +0.000]",0/3
+anti,60%,3 network seeds,0.0,"[+0.000, +0.000]",0/3
+anti,70%,3 network seeds,0.0,"[+0.000, +0.000]",0/3
+anti,80%,3 network seeds,-0.0213,"[-0.026, -0.016]",0/3
+dm1,10%,3 network seeds,0.002,"[+0.001, +0.002]",3/3
+dm1,20%,3 network seeds,0.0033,"[+0.002, +0.004]",3/3
+dm1,30%,3 network seeds,0.0051,"[+0.004, +0.006]",3/3
+dm1,40%,3 network seeds,0.0073,"[+0.006, +0.009]",3/3
+dm1,50%,3 network seeds,0.0108,"[+0.009, +0.012]",3/3
+dm1,60%,3 network seeds,0.0142,"[+0.013, +0.015]",3/3
+dm1,70%,3 network seeds,0.0165,"[+0.015, +0.019]",3/3
+dm1,80%,3 network seeds,0.0142,"[+0.012, +0.018]",3/3
+8 retained tasks (pooled),10%,8 tasks,0.635,"[+0.530, +0.750]",8/8
+8 retained tasks (pooled),20%,8 tasks,0.8692,"[+0.822, +0.917]",8/8
+8 retained tasks (pooled),30%,8 tasks,0.9308,"[+0.910, +0.954]",8/8
+8 retained tasks (pooled),40%,8 tasks,0.9408,"[+0.923, +0.960]",8/8
+8 retained tasks (pooled),50%,8 tasks,0.9058,"[+0.872, +0.942]",8/8
+8 retained tasks (pooled),60%,8 tasks,0.8224,"[+0.753, +0.895]",8/8
+8 retained tasks (pooled),70%,8 tasks,0.6074,"[+0.464, +0.770]",8/8
+8 retained tasks (pooled),80%,8 tasks,0.3564,"[+0.166, +0.586]",8/8

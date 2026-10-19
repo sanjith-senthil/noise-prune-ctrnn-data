@@ -5737,8 +5737,8 @@
     },
     {
       "path": "results/statistics_2026_10/code/control_tables.py",
-      "bytes": 12851,
-      "sha256": "0bd0895ea28b24aab2a318c099d4d352bacefe2d940e4cba77fa2dffe17996d2"
+      "bytes": 15645,
+      "sha256": "50911f3383f2ec3747d99e37a858c232a57567781367a1ddd621f1f82825ac8f"
     },
     {
       "path": "results/statistics_2026_10/code/diagnostics.py",
@@ -5787,13 +5787,18 @@
     },
     {
       "path": "results/statistics_2026_10/control_table6_global_factor_by_mask.csv",
-      "bytes": 767,
-      "sha256": "5048bbc0a4a0d0ba5e86138b60e6c1edc029bef94763ca5c459c897307e8c90a"
+      "bytes": 783,
+      "sha256": "4602b2b00e723394054bcb9083acba6ec67ab077019ebdae3e8dc84c5baf2fd3"
     },
     {
       "path": "results/statistics_2026_10/control_table7_excluded_tasks.csv",
       "bytes": 1319,
       "sha256": "8f1661b55304e8e9c52e3268effd016f167a0477dc77433d22f6e4adc6bebf84"
+    },
+    {
+      "path": "results/statistics_2026_10/control_table7b_excluded_tasks_effects.csv",
+      "bytes": 1435,
+      "sha256": "013a645a1dfcddc7c2adf36b29d8ac5a3aa726d703dd055ef588fd6b6664289c"
     },
     {
       "path": "results/statistics_2026_10/curves.csv",
