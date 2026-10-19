@@ -1,0 +1,19 @@
+contrast,sparsity,mean_a,mean_b,effect,CI95,tasks,p
+cost of removing the injected noise,10%,0.9997,0.9978,0.0019,"[-0.000, +0.004]",6/8,0.1562
+cost of removing the injected noise,20%,0.9983,0.9831,0.0152,"[+0.002, +0.039]",6/8,0.0547
+cost of removing the injected noise,30%,0.9955,0.9435,0.052,"[+0.008, +0.135]",8/8,0.0078*
+cost of removing the injected noise,40%,0.9812,0.8815,0.0997,"[+0.014, +0.240]",8/8,0.0078*
+cost of removing the injected noise,50%,0.9418,0.7777,0.1641,"[+0.048, +0.337]",8/8,0.0078*
+cost of removing the injected noise,60%,0.8274,0.619,0.2084,"[+0.103, +0.330]",8/8,0.0078*
+cost of removing the injected noise,70%,0.6019,0.4363,0.1656,"[+0.099, +0.225]",8/8,0.0078*
+cost of removing the injected noise,80%,0.3805,0.2979,0.0826,"[+0.063, +0.103]",8/8,0.0078*
+cost of removing the injected noise,AUC 10-80%,0.8623,0.7556,0.1068,"[+0.048, +0.188]",8/8,0.0078*
+cost of removing the task input,10%,0.9997,0.9997,0.0,"[-0.000, +0.000]",3/8,0.9531
+cost of removing the task input,20%,0.9983,0.9987,-0.0003,"[-0.001, +0.000]",2/8,0.1641
+cost of removing the task input,30%,0.9955,0.9946,0.0009,"[-0.001, +0.003]",5/8,0.2812
+cost of removing the task input,40%,0.9812,0.9819,-0.0007,"[-0.005, +0.003]",4/8,0.7188
+cost of removing the task input,50%,0.9418,0.9398,0.002,"[-0.005, +0.008]",4/8,0.5000
+cost of removing the task input,60%,0.8274,0.8242,0.0032,"[-0.010, +0.013]",6/8,0.5312
+cost of removing the task input,70%,0.6019,0.5995,0.0023,"[-0.015, +0.018]",5/8,0.8516
+cost of removing the task input,80%,0.3805,0.3783,0.0022,"[-0.002, +0.007]",5/8,0.2812
+cost of removing the task input,AUC 10-80%,0.8623,0.8611,0.0012,"[-0.004, +0.005]",5/8,0.5625

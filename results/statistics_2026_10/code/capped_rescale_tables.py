@@ -39,7 +39,7 @@ pd.set_option("display.width", 260)
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-from paper_stats import (CAP_CONSTANT, Cube, N_BOOT, auc, build_cube, contrast,
+from paper_stats import (CAP_CONSTANT, Cube, MAG_CAP_CONSTANT, N_BOOT, auc, build_cube, contrast,
                          make_surrogates, percentile_ci, signflip_exact)
 
 ROOT = "/Users/sanjithsenthil/Efficient RNN Project"
@@ -49,6 +49,8 @@ SUITE = {
     "recap":    f"{R}/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_renorm_recap_p10_80/*.csv",
     "capq50":   f"{R}/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_capq50_p10_80/*.csv",
     "capsweep": f"{R}/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_capsweep_p50_80/*.csv",
+    "capsweep_mag": f"{R}/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_capsweep_mag_p50_80/*.csv",
+    "magopt": f"{R}/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_renorm_magopt_p10_80/*.csv",
 }
 NEED = ["strategy", "amount", "post_acc_sequence", "pre_acc_sequence", "task",
         "source_network_seed", "prune_rescale_cap_quantile", "prune_rescale_cap_value"]
@@ -102,6 +104,42 @@ def fmt(r, pct=None):
                 p=f"{r['p_two']:.4f}" + ("*" if np.isclose(r["p_two"], r["p_floor"]) else ""))
 
 
+def _sweep_rows(score: str, poolname: str, unc_strat: str, qstar: int, QS):
+    """One score's cap-percentile sweep, contrasted against its own optimum.
+
+    The optimum is not assumed: it is passed in from the pooled maximum of this
+    score's own sweep (q50 for the noise score, q60 for magnitude), and every
+    other percentile is contrasted against it. The uncapped rule is carried as
+    the right-hand reference, which is what shows the optimum is interior
+    rather than just the best of a bad set.
+    """
+    sw = pool(poolname)
+    arms = {f"q{q}": sw[np.isclose(sw.prune_rescale_cap_quantile, q / 100)] for q in QS}
+    unc = pool("renorm")
+    arms["uncapped"] = unc[unc.strategy == unc_strat]
+    cs = make_cube(arms, (50, 60, 70, 80))
+    ss = make_surrogates(cs, n_boot=N_BOOT)
+    tlc = cs.task_level()
+    best = f"q{qstar}"
+    rows = []
+    for name in list(arms):
+        k = cs.m(name)
+        r = {"score": score, "cap": name}
+        for qi, q in enumerate(cs.qs):
+            r[f"{q}%"] = round(float(tlc[:, k, qi].mean()), 4)
+        r["pooled"] = round(float(tlc[:, k, :].mean()), 4)
+        if name != best:
+            c = contrast(cs, ss, best, name, lo=50, hi=80)
+            r["optimum minus this"] = round(c["effect"], 4)
+            r["CI95"] = f"[{c['lo95']:+.3f}, {c['hi95']:+.3f}]"
+            r["tasks"] = f"{c['n_positive']}/8"
+            r["p"] = f"{c['p_two']:.4f}" + ("*" if np.isclose(c["p_two"], c["p_floor"]) else "")
+        else:
+            r.update({"optimum minus this": "-- (optimum)", "CI95": "--", "tasks": "--", "p": "--"})
+        rows.append(r)
+    return rows
+
+
 def main() -> None:
     out = {}
 
@@ -138,7 +176,9 @@ def main() -> None:
     print("TABLE 1  Capping helps the rescale rule, and the covariance term still pays once both scores are capped")
     print("  d_capping    = capped noise-prune  minus  noise-prune sample-and-rescale   (what the cap buys)")
     print("  d_covariance = capped noise-prune  minus  capped magnitude                 (what the covariance term buys)")
-    print("  same cap (%.3f), same sampling; the covariance contrast differs only in whether C entered the score" % CAP_CONSTANT)
+    print("  each score at its OWN swept constant -- noise %.3f (q50), magnitude %.3f (q60); the covariance"
+          % (CAP_CONSTANT, MAG_CAP_CONSTANT))
+    print("  contrast therefore differs only in whether C entered the score, with neither score handicapped by the other's cap")
     print("=" * 150)
     print(T1.to_string(index=False))
     out["table1_capping_and_covariance"] = T1
@@ -161,55 +201,42 @@ def main() -> None:
     out["table2_per_task"] = T2
 
     # ============ 3: is q50 the best cap percentile? =========================
-    sw = pool("capsweep")
     QS = [10, 20, 30, 40, 50, 60, 70, 80, 90]
-    arms = {f"q{q}": sw[np.isclose(sw.prune_rescale_cap_quantile, q / 100)] for q in QS}
-    unc = pool("renorm")
-    arms["uncapped"] = unc[unc.strategy == "simulation_noise_prune_rescale"]
-    cs = make_cube(arms, (50, 60, 70, 80))
-    ss = make_surrogates(cs, n_boot=N_BOOT)
-    tlc = cs.task_level()
-    rows = []
-    for name in list(arms):
-        k = cs.m(name)
-        r = dict(cap=name)
-        for qi, q in enumerate(cs.qs):
-            r[f"{q}%"] = round(float(tlc[:, k, qi].mean()), 4)
-        r["pooled"] = round(float(tlc[:, k, :].mean()), 4)
-        if name != "q50":
-            c = contrast(cs, ss, "q50", name, lo=50, hi=80)
-            r["q50 minus this"] = round(c["effect"], 4)
-            r["CI95"] = f"[{c['lo95']:+.3f}, {c['hi95']:+.3f}]"
-            r["tasks"] = f"{c['n_positive']}/8"
-            r["p"] = f"{c['p_two']:.4f}" + ("*" if np.isclose(c["p_two"], c["p_floor"]) else "")
-        else:
-            r.update({"q50 minus this": "--", "CI95": "--", "tasks": "--", "p": "--"})
-        rows.append(r)
-    T3 = pd.DataFrame(rows)
+    SWEEPS = (("noise", "capsweep", "simulation_noise_prune_rescale", 50),
+              ("magnitude", "capsweep_mag", "simulation_noise_prune_magnitude_rescale", 60))
+    rows_all = []
+    for score, poolname, unc_strat, qstar in SWEEPS:
+        rows_all.extend(_sweep_rows(score, poolname, unc_strat, qstar, QS))
+    T3 = pd.DataFrame(rows_all)
     print("\n" + "=" * 130)
-    print("TABLE 3  Cap percentile sweep, noise score, 24 networks x 3 draws per cell")
-    print("  'q50 minus this' is the paired AUC 50-80% difference against the q50 cap; positive means q50 is better")
+    print("TABLE 3  Cap percentile sweep, BOTH scores, 24 networks x 3 draws per cell")
+    print("  the sweep each score's constant is derived from: the noise score peaks at q50, magnitude a decile looser at q60")
+    print("  'optimum minus this' is the paired AUC 50-80% difference against that score's own best percentile")
     print("=" * 130)
     print(T3.to_string(index=False))
     out["table3_cap_percentile_sweep"] = T3
 
     # ============ 4: does the constant reproduce the q50 cap? ===============
-    q50, con = pool("capq50"), pool("recap")
+    q50 = pool("capq50")
     rows = []
-    for score, strat in (("noise", NOISE), ("magnitude", MAGN)):
+    # each score against the constant the paper actually uses for it
+    for score, strat, poolname, const in (("noise", NOISE, "recap", CAP_CONSTANT),
+                                          ("magnitude", MAGN, "magopt", MAG_CAP_CONSTANT)):
+        con = pool(poolname)
         arms = {"q50 quantile": q50[q50.strategy == strat],
-                f"constant {CAP_CONSTANT}": con[con.strategy == strat]}
+                f"constant {const}": con[con.strategy == strat]}
         cc = make_cube(arms, range(10, 90, 10))
         sc = make_surrogates(cc, n_boot=N_BOOT)
         t = cc.task_level()
         for qi, q in list(enumerate(cc.qs)) + [(None, None)]:
-            r = contrast(cc, sc, "q50 quantile", f"constant {CAP_CONSTANT}", q=q)
+            r = contrast(cc, sc, "q50 quantile", f"constant {const}", q=q)
             if q is None:
                 a, b = (auc(t, cc.qs)[:, i].mean() for i in (0, 1))
             else:
                 a, b = t[:, 0, qi].mean(), t[:, 1, qi].mean()
             rows.append(dict(score=score, sparsity=("AUC 10-80%" if q is None else f"{q}%"),
                              q50_cap=round(float(a), 4),
+                             constant=const,
                              constant_cap=round(float(b), 4),
                              difference=round(r["effect"], 4),
                              CI95=f"[{r['lo95']:+.3f}, {r['hi95']:+.3f}]",
@@ -217,7 +244,8 @@ def main() -> None:
                              p=f"{r['p_two']:.4f}" + ("*" if np.isclose(r["p_two"], r["p_floor"]) else "")))
     T4 = pd.DataFrame(rows)
     print("\n" + "=" * 120)
-    print(f"TABLE 4  The constant factor {CAP_CONSTANT} against the per-network q50 quantile cap")
+    print(f"TABLE 4  Each score's own constant ({CAP_CONSTANT} noise, {MAG_CAP_CONSTANT} magnitude) "
+          "against the per-network q50 quantile cap")
     print("  difference = q50 minus constant; near zero means the constant reproduces the adaptive cap")
     print("=" * 120)
     print(T4.to_string(index=False))

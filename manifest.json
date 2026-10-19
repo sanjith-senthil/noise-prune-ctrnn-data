@@ -5698,22 +5698,22 @@
     {
       "path": "results/statistics_2026_10/capped_table1_capping_and_covariance.csv",
       "bytes": 1045,
-      "sha256": "8bc628a875ffc812e608fe11ae8e77e700f8f07ee2d6b3d44be8c82e6dbd70a5"
+      "sha256": "635c7240f484202f805dfa8d72c567228597be64c8f141eb0f6c872d7ae95d29"
     },
     {
       "path": "results/statistics_2026_10/capped_table2_per_task.csv",
-      "bytes": 267,
-      "sha256": "96c10d84dc20e9082776f341bda8fed39a9d5021d44fca9d022fabf7d7426a0c"
+      "bytes": 266,
+      "sha256": "55e4e04de87082240adfd2f06093bd37ba8490f7af6e50bb7e07f1bf67bcedf8"
     },
     {
       "path": "results/statistics_2026_10/capped_table3_cap_percentile_sweep.csv",
-      "bytes": 796,
-      "sha256": "9c0c6b2bb4a13999ea348537d7a44dd476611e90fe2781cf5b4bf08244a47b2a"
+      "bytes": 1722,
+      "sha256": "016809d440a46f6b0e817c75bc0a35f5b0358ef218b087effc1e12add01b4337"
     },
     {
       "path": "results/statistics_2026_10/capped_table4_constant_vs_q50.csv",
-      "bytes": 1217,
-      "sha256": "b912e970f47e0a7c2c3d85fcf98fa0e134ee58542f7013a3d6df996cf2d9b45a"
+      "bytes": 1334,
+      "sha256": "75f468c035bec39c8fe7e963337c910e46d243e4a8768a20396906f292e80a44"
     },
     {
       "path": "results/statistics_2026_10/changeover_report.csv",
@@ -5727,13 +5727,18 @@
     },
     {
       "path": "results/statistics_2026_10/code/capped_rescale_tables.py",
-      "bytes": 11189,
-      "sha256": "d638d38818e47b31fcca773cb3a11cb9636298cda02ba1b9bcbeb2c5ed4144d4"
+      "bytes": 12857,
+      "sha256": "ca9868484a55cdc79b46fa92653fa668f782c8d7eb4f643c33c90d2095f4d7fe"
     },
     {
       "path": "results/statistics_2026_10/code/changeover_report.py",
       "bytes": 5497,
       "sha256": "00ded70878743000bce3c1a4a3ab81c28cc69f41a18afc1958e38ab2acaaba31"
+    },
+    {
+      "path": "results/statistics_2026_10/code/control_tables.py",
+      "bytes": 12851,
+      "sha256": "0bd0895ea28b24aab2a318c099d4d352bacefe2d940e4cba77fa2dffe17996d2"
     },
     {
       "path": "results/statistics_2026_10/code/diagnostics.py",
@@ -5774,6 +5779,21 @@
       "path": "results/statistics_2026_10/contrasts_by_sparsity.csv",
       "bytes": 33099,
       "sha256": "89c151080218aa1cbea8b5b2cb99ebc4e423f8c06defebda9f3ee6781f64abf5"
+    },
+    {
+      "path": "results/statistics_2026_10/control_table5_noise_vs_task_covariance.csv",
+      "bytes": 1671,
+      "sha256": "72b40aa04a445a2dbe10e08e625c0ab3efd48227046582218eaebe1ac4b807fe"
+    },
+    {
+      "path": "results/statistics_2026_10/control_table6_global_factor_by_mask.csv",
+      "bytes": 767,
+      "sha256": "5048bbc0a4a0d0ba5e86138b60e6c1edc029bef94763ca5c459c897307e8c90a"
+    },
+    {
+      "path": "results/statistics_2026_10/control_table7_excluded_tasks.csv",
+      "bytes": 1319,
+      "sha256": "8f1661b55304e8e9c52e3268effd016f167a0477dc77433d22f6e4adc6bebf84"
     },
     {
       "path": "results/statistics_2026_10/curves.csv",
