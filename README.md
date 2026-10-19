@@ -146,14 +146,52 @@ so they are directly comparable to the original figures.
   `prune_prob_normalize_mode = bisect`.
   - `h512_p10_80` the four sampling strategies that do not read the cap, 10-80%,
     H=512 (2,328 rows), plus the 24 unpruned baselines
-  - `h512_recap_p10_80` the two cap-dependent arms at the recalibrated constant
-    3.695 (1,152 rows)
+  - `h512_recap_p10_80` the two cap-dependent arms at 3.695 (1,152 rows)
+  - `magopt_h512_p10_80` the same two arms at 4.549 (1,152 rows)
+  - `magcap_h512_p10_80` the same two arms at 3.584 (1,152 rows)
 
-  The two H=512 tables partition the sampling arms: no strategy appears in both,
-  and **every `run_id` in this directory appears exactly once**, so the tables can
-  be concatenated safely. The capped arms were first run at 3.8 and then re-run at
-  3.695 under the same `run_id`s; the superseded rows are not deposited, so there
-  is no way to pick up two caps by accident.
+  ### Which cap the paper reports, and why there are three
+
+  Each score's cap is derived by one rule -- sweep the cap percentile, take the
+  pooled optimum, then average that percentile's per-network value over 50-80%.
+  Applied to each score separately the rule gives different numbers, because the
+  magnitude score removes the small weights, loses more L1 mass than spectral
+  gain, and needs more amplification headroom:
+
+  | score | optimum | constant | swept in |
+  |---|---|---|---|
+  | noise | q50 | **3.695** | `capsweep_h512_p50_80` |
+  | magnitude | q60 | **4.549** | `capsweep_mag_h512_p50_80` |
+
+  **The paper's two capped arms therefore come from two different tables:**
+
+  | paper arm | table | `prune_rescale_cap_value` |
+  |---|---|---|
+  | noise-prune + capped rescale | `h512_recap_p10_80` | 3.695 |
+  | magnitude + capped rescale | `magopt_h512_p10_80` | 4.549 |
+
+  The other rows in those two tables, and all of `magcap_h512_p10_80` (3.584,
+  the magnitude score's q50, superseded once its sweep put the optimum at q60),
+  are the off-diagonal cells of a {score} x {cap} grid. They are deposited
+  because they are what establishes that the constant barely matters within a
+  score -- each score gains under 0.004 of AUC from its own cap, an order of
+  magnitude below the difference between the scores.
+
+  ### Concatenating these tables
+
+  The four H=512 tables that do not depend on the cap (`h512_p10_80` and the
+  three control suites) partition the sampling arms cleanly: no strategy appears
+  in two of them.
+
+  **The three cap tables do not.** `run_id` is built from (task, network seed,
+  arm, sparsity, draw) and does not contain the cap, so the same 1,152 `run_id`s
+  appear in all three -- 2,304 of the `run_id`s in this directory are not unique
+  across tables. Concatenating them blindly yields three rows per run at three
+  different caps. Select on `prune_rescale_cap_value` as well as `run_id`, or
+  take the two arms from the two tables named above.
+
+  (The capped arms were also run at 3.8 before the recalibration. Those rows are
+  not deposited, so 3.8 cannot be picked up by accident.)
   - `h1024_p10_80` the plain rescale rule at H=1024 (600 runs)
   - `h1024_rest_p10_80` the other three sampling arms at H=1024 (1,728 runs)
   - `capq50_h512_p10_80` the quantile-cap measurement the recalibration rests on

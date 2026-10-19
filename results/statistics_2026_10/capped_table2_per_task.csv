@@ -1,0 +1,10 @@
+task,d_capping_AUC,d_covariance_AUC
+ctxdlydm1intseq,0.0403,0.0482
+ctxdlydm2intseq,0.0281,0.0227
+dlydm1intseq,0.0253,0.0309
+dlydm2intseq,0.0207,0.0277
+dm1seqr,-0.0004,0.0061
+dm2seql,0.008,0.0145
+dmsintseq,0.0611,0.0439
+multidlydmintseq,0.0331,0.0484
+MEAN,0.027,0.0303
