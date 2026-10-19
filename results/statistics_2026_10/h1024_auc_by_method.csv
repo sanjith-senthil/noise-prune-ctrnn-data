@@ -1,0 +1,9 @@
+method,AUC,sd_across_tasks,n_tasks
+noise-prune + capped rescale,0.698177,0.099523,8
+noise-prune + rescale,0.677733,0.11355,8
+noise-prune score only,0.577803,0.04979,8
+magnitude + capped rescale,0.681221,0.099154,8
+magnitude + rescale,0.676928,0.115031,8
+magnitude,0.566785,0.030789,8
+OBS,0.627719,0.058735,8
+random,0.065811,0.029282,8

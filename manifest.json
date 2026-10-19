@@ -5746,6 +5746,11 @@
       "sha256": "f5884718bc1bc1e570050f7f7f870ce081c4a28da0a7c638728e46ee9cedacbe"
     },
     {
+      "path": "results/statistics_2026_10/code/h1024_contrasts.py",
+      "bytes": 8807,
+      "sha256": "57bc0c3bcf60b64f23e2893c93bd111c14c355357c7224f439d0681e8f6b36b6"
+    },
+    {
       "path": "results/statistics_2026_10/code/key_comparisons.py",
       "bytes": 7999,
       "sha256": "0478ebe414d5003c261e2970e93d9e160e526e30641c8d1370a77b808110999d"
@@ -5804,6 +5809,16 @@
       "path": "results/statistics_2026_10/curves.csv",
       "bytes": 8828,
       "sha256": "c0ef9d06cb8e7ebb8492513187196e946082a7f6d8195cf0c9b6bd751502fc60"
+    },
+    {
+      "path": "results/statistics_2026_10/h1024_auc_by_method.csv",
+      "bytes": 335,
+      "sha256": "8cad730c43c71683ba9510a0007b24f586abb693611107b4190318e1d6ed603e"
+    },
+    {
+      "path": "results/statistics_2026_10/h1024_contrasts.csv",
+      "bytes": 42829,
+      "sha256": "8019bfae257c26bd64a14637b410816f70770c9f2f242d3208f9236ccbbcf9e9"
     },
     {
       "path": "results/statistics_2026_10/key_comparisons.csv",
