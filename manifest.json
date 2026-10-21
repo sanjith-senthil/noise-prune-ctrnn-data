@@ -426,6 +426,11 @@
       "sha256": "fb030bc24289cd13d91734784e33328d003023ec5d1ffb589fc95d1b3a55cd21"
     },
     {
+      "path": "results/renormalized_2026_10/capsweep_h1024_p50_80.csv",
+      "bytes": 63687519,
+      "sha256": "14172c6508364c5a01595566ca4c57503a75454454d1d183244af36a42d1f2c4"
+    },
+    {
       "path": "results/renormalized_2026_10/capsweep_h512_p50_80.csv",
       "bytes": 36364192,
       "sha256": "1c7f629640fdd4a0e4fc201867106a4c17ff3aa6a7ec468cbbdb0419a486c624"
@@ -754,6 +759,166 @@
       "path": "results/renormalized_2026_10/configs/capq50_h512_p10_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_capq50_p10_80_multidlydmintseq_p80.json",
       "bytes": 20418,
       "sha256": "e8d844b2cb8747780915e974a8923125c4796b26238127c520ed32dc46be9bdf"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_ctxdlydm1intseq_p50.json",
+      "bytes": 85904,
+      "sha256": "9970d801a0656ba07941ec5de94ceb333ef7950942d1342b9833436a53384d4d"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_ctxdlydm1intseq_p60.json",
+      "bytes": 85904,
+      "sha256": "ace5cd237305dd76c8c2692f5a397126b69640695914d46cc70686530163cea4"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_ctxdlydm1intseq_p70.json",
+      "bytes": 85904,
+      "sha256": "8de88f18880fc2367898703b0fe6113b6e0e67539b61ae023d78cfcf9abdc25c"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_ctxdlydm1intseq_p80.json",
+      "bytes": 85904,
+      "sha256": "d07ccb4526f8ffcc473c3133632f71356545a64a43eff2aefbc6ba1516f06306"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_ctxdlydm2intseq_p50.json",
+      "bytes": 85904,
+      "sha256": "ae60b37f05e3789a7ac1a4ce0ce9a6339abdc660796eedd8c70ab986ec671e88"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_ctxdlydm2intseq_p60.json",
+      "bytes": 85904,
+      "sha256": "6c83017a41ebc8c9c611854db43a46916ee1814d3a5f7a414b53d29a2c14a201"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_ctxdlydm2intseq_p70.json",
+      "bytes": 85904,
+      "sha256": "649101226bd65a6710383b8f788884fada2cfb1b7c5a2c3602a68b00a0f9ff5f"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_ctxdlydm2intseq_p80.json",
+      "bytes": 85904,
+      "sha256": "2d2f9f7c272eb0bbfd3f1ddc616dfbf169a5655ef13382b1d62623e225f7de7f"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dlydm1intseq_p50.json",
+      "bytes": 84197,
+      "sha256": "5a4e6d2d1a3c5a693a7d908bd4985db279b840577b896c7e5d45cc1de444025a"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dlydm1intseq_p60.json",
+      "bytes": 84197,
+      "sha256": "f04c62a146bf5976628f514e95048489e51005ff9558b5c357c8883e678ce0b2"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dlydm1intseq_p70.json",
+      "bytes": 84197,
+      "sha256": "ad83bd80e4986b44218544865c58bff3ba118e5e0bb54acce87840ad876652c1"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dlydm1intseq_p80.json",
+      "bytes": 84197,
+      "sha256": "d09f4c17e0891a385ef4865dde4919ed83e8505276270e33181cad7e1f12e9cb"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dlydm2intseq_p50.json",
+      "bytes": 84197,
+      "sha256": "d21d5a88cecc99cfc195f177db58c677985998b3d63a30af4c815b34121c2282"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dlydm2intseq_p60.json",
+      "bytes": 84197,
+      "sha256": "896e0870c3f193f654506df8a7ef19e17bd63a9de5bdb2ea364a9a45d80efe01"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dlydm2intseq_p70.json",
+      "bytes": 84197,
+      "sha256": "a7b2f8aad6bde020db7bffa07421e8cb0735f431b31734d973ca216b3cf93912"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dlydm2intseq_p80.json",
+      "bytes": 84197,
+      "sha256": "1fd6e716708532da3699bc746ecbba75970d02f22dcf9e586d49b9f61c1b6fe3"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dm1seqr_p50.json",
+      "bytes": 81352,
+      "sha256": "ae49edb8096fa87ac5ac38299fc387e6e26cdb6003630b0d1da0eb8b9feb40eb"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dm1seqr_p60.json",
+      "bytes": 81352,
+      "sha256": "bfad470e6b7c50ab9a8732fef54146a7d0d9671fd85009fab97e89b3becbaa58"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dm1seqr_p70.json",
+      "bytes": 81352,
+      "sha256": "bef757562e6c0547683463c871d05bdcc8207d79ddb4117432b4ca53e2da1ffb"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dm1seqr_p80.json",
+      "bytes": 81352,
+      "sha256": "70e50e7736322bbf44d316e5cd02c779b0ab54cb3cfeb3566f5661776194af7e"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dm2seql_p50.json",
+      "bytes": 81352,
+      "sha256": "34b01cba0a21ac0ad50f07689d46e74820befc47269b79b0a1285bfcc11ae0a1"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dm2seql_p60.json",
+      "bytes": 81352,
+      "sha256": "b516996908f35269b58741226b03cb75b114b32c556a1a9ceec431f70f5ea5f8"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dm2seql_p70.json",
+      "bytes": 81352,
+      "sha256": "e17be2e5d1d53eb54812bf569a083dbfabafb47b07fededfea77ccc1010713a8"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dm2seql_p80.json",
+      "bytes": 81352,
+      "sha256": "3f221c97d0602f28d00e9efa55ad003e2e0b6dd3356f46a4741dff23ca53fcee"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dmsintseq_p50.json",
+      "bytes": 82490,
+      "sha256": "4a577563c23227735200706bd489cd6797984bbc8f2e8e2a924912abeec4232c"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dmsintseq_p60.json",
+      "bytes": 82490,
+      "sha256": "869d55cdf22e00ddd1d01a74d8a4b479cfac4402872561168a3efff3e89d22be"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dmsintseq_p70.json",
+      "bytes": 82490,
+      "sha256": "e712e2ac212559dde1ff21478193449770748afb328613dcd4e8b1641dbce01f"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_dmsintseq_p80.json",
+      "bytes": 82490,
+      "sha256": "67329bebf114c29cf5e4c1127e482c74e059ec8113d1eec4a517387f0347b0e2"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_multidlydmintseq_p50.json",
+      "bytes": 86473,
+      "sha256": "055aac11b4f81fe105f36655c2c485f3a00aa4f560fc2e94490e2d5a6edd9272"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_multidlydmintseq_p60.json",
+      "bytes": 86473,
+      "sha256": "d41a1fec321be2949a1d613e76b4c10f4519b3b613b4b089d48a13a069af5d24"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_multidlydmintseq_p70.json",
+      "bytes": 86473,
+      "sha256": "de261578d832eaad60c35d1a708737a18ca641bdbab2aac2c2934debf4cae5f5"
+    },
+    {
+      "path": "results/renormalized_2026_10/configs/capsweep_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_capsweep_p50_80_multidlydmintseq_p80.json",
+      "bytes": 86473,
+      "sha256": "481bed044b702b628618408f4ec5fcb8604559748bb6e69cbdd63037e63a171d"
     },
     {
       "path": "results/renormalized_2026_10/configs/capsweep_h512_p50_80/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_capsweep_p50_80_ctxdlydm1intseq_p50.json",
