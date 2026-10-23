@@ -198,6 +198,25 @@ so they are directly comparable to the original figures.
     (1,176 runs). The cap is the mean over 50-80% of each network's own median
     amplification: 3.823 before the correction, 3.695 after.
 
+- `sharded_suites/`: suites the runner shards by (task, sparsity), shipped merged with
+  the configs that produced them. These are read directly by the released figure and
+  statistics code, so the analysis runs against the deposit without a missing path.
+  - `fig3_lowsparsity_h512_p10_40`, `size_h1024_p10_40` the low-sparsity cells
+  - `fixedcapfull_h512_p50_80`, `fixedcapfull_h1024_p50_80` the constant-factor cap
+    arms. Both are sources for `final_style.py` and `paper_stats.py`. The H=512 table
+    carries its 24 unpruned baselines once: the suite ran in two passes and each
+    re-emitted them identically, and the staging script collapses rows that agree on
+    every measured column while still refusing any `run_id` whose copies disagree.
+  - `synaptic_h512_p50_80` gain restoration on the noise-prune mask at 50-80%:
+    `match_l1_rowwise` (synaptic scaling, postsynaptic), `match_l1_colwise` (its
+    presynaptic mirror) and `inv_density`. Without it the density-matched control on
+    this mask could be quoted as a mean but not resampled for an interval.
+  - `neuronwise_h512_p10_80` the same two per-neuron rules over the full 10-80% range
+    on BOTH masks (600 runs, n = 24): the magnitude mask at every sparsity, and the
+    noise-prune mask at 10-40%, which completes that mask's range against the suite
+    above. The magnitude-mask rows supersede the 50-80% single-seed rows in
+    `score_controls_round2/`, which they reproduce exactly where they overlap.
+
 Per suite the deposit ships the **merged** raw rows and summaries rather than the eight
 per-task shards the runner writes; the shards are intermediates carrying ~290 raw columns
 each. For dm1/anti only the selected final checkpoints are deposited, matching how the

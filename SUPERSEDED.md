@@ -65,6 +65,8 @@ instead; the remaining rows are unchanged and still valid.
 | `results/revision_2026/score_controls_round2/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_regression_check.csv` | 32 | 96 |
 | `results/revision_2026/score_controls_round2/task_preservation_tanh_h512_modcog_revised8_12k_seqbest_score_control_round2_p50_80_summary_by_sparsity.csv` | 8 | 40 |
 | `results/revision_2026/sharded_suites/fig3_lowsparsity_h512_p10_40.csv` | 288 | 480 |
+| `results/revision_2026/sharded_suites/fixedcapfull_h1024_p50_80.csv` | 336 | 360 |
+| `results/revision_2026/sharded_suites/fixedcapfull_h512_p50_80.csv` | 1200 | 1224 |
 | `results/revision_2026/sharded_suites/size_h1024_p10_40.csv` | 288 | 1464 |
 | `results/revision_2026/size_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_raw.csv` | 864 | 2016 |
 | `results/revision_2026/size_h1024_p50_80/task_preservation_tanh_h1024_modcog_revised8_12k_seqbest_revised_task_only_p50_80_summary_by_sparsity.csv` | 12 | 36 |
