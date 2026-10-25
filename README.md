@@ -194,6 +194,16 @@ so they are directly comparable to the original figures.
   not deposited, so 3.8 cannot be picked up by accident.)
   - `h1024_p10_80` the plain rescale rule at H=1024 (600 runs)
   - `h1024_rest_p10_80` the other three sampling arms at H=1024 (1,728 runs)
+  - `windowdrive_h512_p10_80` the covariance-estimator 2x2 re-run on the
+    corrected rule (792 runs): window (end-step vs whole trial) x drive
+    (task+noise vs noise-only). The original suite predates the fix and records
+    `clip` throughout, and `cov2x2_h512_p10_80` re-ran only the DRIVE axis at
+    the end-step window, so the whole-trial cells had never been measured under
+    `bisect`. All four cells are deposited together because the 2x2 is paired
+    within trained network rather than joined across suites; the two end-step
+    cells reproduce `cov2x2_h512_p10_80` exactly at the shared pruning seed
+    (192 cells each, max difference 0). No alternative estimator beats the
+    published end-step / task+noise one after Holm, on AUC or at any sparsity.
   - `capq50_h512_p10_80` the quantile-cap measurement the recalibration rests on
     (1,176 runs). The cap is the mean over 50-80% of each network's own median
     amplification: 3.823 before the correction, 3.695 after.
